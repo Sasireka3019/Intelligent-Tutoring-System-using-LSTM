@@ -1,0 +1,423 @@
+[
+    {
+        "question": "What is a stack?",
+        "information": "A stack is a linear data structure that follows the Last In,First Out (LIFO) principle,where elements are added and removed from the top of the stack.",
+        "options": ["A data structure","A loop","A function","A variable"],
+        "answer": "A data structure"
+    },
+    {
+        "question": "What are the two primary operations performed on a stack?",
+        "information": "The two main operations on a stack are push,which adds an element to the top of the stack,and pop,which removes the top element from the stack.",
+        "options": ["Push and pull","Add and remove","Insert and delete","Push and pop"],
+        "answer": "Push and pop"
+    },
+    {
+        "question": "What is the operation of adding an element to a stack called?",
+        "information": "Adding an element to the top of the stack is called pushing.",
+        "options": ["Pop","Peek","Push","Drop"],
+        "answer": "Push"
+    },
+    {
+        "question": "What is the operation of removing an element from a stack called?",
+        "information": "Removing the top element from the stack is called popping.",
+        "options": ["Push","Pop","Peek","Drop"],
+        "answer": "Pop"
+    },
+    {
+        "question": "What is the term for accessing the top element of the stack without removing it?",
+        "information": "Accessing the top element of the stack without removing it is called peeking.",
+        "options": ["Push","Pop","Peek","Drop"],
+        "answer": "Peek"
+    },
+    {
+        "question": "What happens if you try to pop an element from an empty stack?",
+        "information": "Popping from an empty stack results in an underflow error,indicating that the stack is empty.",
+        "options": ["It removes the last element","It returns the last element","It adds a new element","It results in an error"],
+        "answer": "It results in an error"
+    },
+    {
+        "question": "What is the time complexity of the push operation in a stack?",
+        "information": "Pushing an element onto a stack has a constant time complexity.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "What is the time complexity of the pop operation in a stack?",
+        "information": "Popping an element from a stack also has a constant time complexity.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "What is the time complexity of the peek operation in a stack?",
+        "information": "Peeking at the top element of a stack has a constant time complexity.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "What is the time complexity of checking if a stack is empty?",
+        "information": "Checking if a stack is empty involves examining whether the stack has any elements.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "What is the time complexity of checking the size of a stack?",
+        "information": "Checking the size of a stack involves counting the number of elements in the stack.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "What data structure can be used to implement a stack?",
+        "information": "A stack can be implemented using arrays or linked lists.",
+        "options": ["Array","Linked list","Both array and linked list","Binary tree"],
+        "answer": "Both array and linked list"
+    },
+    {
+        "question": "What is the name of the principle that stacks follow?",
+        "information": "Stacks follow the Last In,First Out (LIFO) principle,meaning that the last element added to the stack is the first one to be removed.",
+        "options": ["First In,First Out (FIFO)","Last In,Last Out (LILO)","Last In,First Out (LIFO)","First In,Last Out (FILO)"],
+        "answer": "Last In,First Out (LIFO)"
+    },
+    {
+        "question": "What is the purpose of using a stack?",
+        "information": "Stacks are used to manage function calls,expression evaluation,backtracking,and undo mechanisms,among other things.",
+        "options": ["To manage function calls","To manage loop iterations","To manage data storage","To manage network connections"],
+        "answer": "To manage function calls"
+    },
+    {
+        "question": "What is an example of an application that uses a stack?",
+        "information": "An application like a web browser uses a stack to manage the history of visited pages.",
+        "options": ["Calculator","Email client","Web browser","File manager"],
+        "answer": "Web browser"
+    },
+    {
+        "question": "What is the term for the process of adding an element to a stack?",
+        "information": "Adding an element to a stack is called pushing.",
+        "options": ["Popping","Peeking","Pushing","Dropping"],
+        "answer": "Pushing"
+    },
+    {
+        "question": "What is the term for the process of removing an element from a stack?",
+        "information": "Removing the top element from a stack is called popping.",
+        "options": ["Pushing","Popping","Peeking","Dropping"],
+        "answer": "Popping"
+    },
+    {
+        "question": "What is the term for the process of accessing the top element of a stack without removing it?",
+        "information": "Accessing the top element of a stack without removing it is called peeking.",
+        "options": ["Pushing","Popping","Peeking","Dropping"],
+        "answer": "Peeking"
+    },
+    {
+        "question": "What is the term for when a stack reaches its maximum capacity?",
+        "information": "When a stack reaches its maximum capacity,it is said to be full.",
+        "options": ["Overflow","Underflow","Full","Empty"],
+        "answer": "Overflow"
+    },
+    {
+        "question": "What is the term for when a stack is empty and an attempt is made to remove an element?",
+        "information": "When a stack is empty and an attempt is made to remove an element,it is said to be underflow.",
+        "options": ["Overflow","Underflow","Full","Empty"],
+        "answer": "Underflow"
+    },
+    {
+        "question": "What is the term for the maximum number of elements a stack can hold?",
+        "information": "The maximum number of elements a stack can hold is its capacity.",
+        "options": ["Capacity","Size","Length","Limit"],
+        "answer": "Capacity"
+    },
+    {
+        "question": "What is the term for the number of elements currently in a stack?",
+        "information": "The number of elements currently in a stack is its size.",
+        "options": ["Capacity","Size","Length","Limit"],
+        "answer": "Size"
+    },
+    {
+        "question": "What is the term for a stack that has no elements?",
+        "information": "A stack with no elements is said to be empty.",
+        "options": ["Full","Empty","Overflow","Underflow"],
+        "answer": "Empty"
+    },
+    {
+        "question": "What is the term for a stack where the elements are arranged in the order they were added?",
+        "information": "A stack where the elements are arranged in the order they were added is called a non-reversed stack.",
+        "options": ["Reversed stack","Non-reversed stack","Sorted stack","Random stack"],
+        "answer": "Non-reversed stack"
+    },
+    {
+        "question": "What is the term for a stack where the elements are arranged in the reverse order of how they were added?",
+        "information": "A stack where the elements are arranged in the reverse order of how they were added is called a reversed stack.",
+        "options": ["Reversed stack","Non-reversed stack","Sorted stack","Random stack"],
+        "answer": "Reversed stack"
+    },
+    {
+        "question": "What is the term for a stack where the elements are arranged in ascending or descending order?",
+        "information": "A stack where the elements are arranged in ascending or descending order is called a sorted stack.",
+        "options": ["Reversed stack","Non-reversed stack","Sorted stack","Random stack"],
+        "answer": "Sorted stack"
+    },
+    {
+        "question": "What is the term for a stack where the elements are arranged in a random order?",
+        "information": "A stack where the elements are arranged in a random order is called a random stack.",
+        "options": ["Reversed stack","Non-reversed stack","Sorted stack","Random stack"],
+        "answer": "Random stack"
+    },
+    {
+        "question": "What is the term for a stack that uses an array as its underlying data structure?",
+        "information": "A stack that uses an array as its underlying data structure is called an array-based stack.",
+        "options": ["Array stack","Linked stack","Dynamic stack","Static stack"],
+        "answer": "Array stack"
+    },
+    {
+        "question": "What is the term for a stack that uses a linked list as its underlying data structure?",
+        "information": "A stack that uses a linked list as its underlying data structure is called a linked stack.",
+        "options": ["Array stack","Linked stack","Dynamic stack","Static stack"],
+        "answer": "Linked stack"
+    },
+    {
+        "question": "What is the term for a stack whose size is fixed at compile time?",
+        "information": "A stack whose size is fixed at compile time is called a static stack.",
+        "options": ["Dynamic stack","Static stack","Array stack","Linked stack"],
+        "answer": "Static stack"
+    },
+    {
+        "question": "What is the term for a stack whose size can change dynamically during runtime?",
+        "information": "A stack whose size can change dynamically during runtime is called a dynamic stack.",
+        "options": ["Dynamic stack","Static stack","Array stack","Linked stack"],
+        "answer": "Dynamic stack"
+    },
+    {
+        "question": "What is the term for a stack where the elements are added to one end and removed from the other end?",
+        "information": "A stack where the elements are added to one end and removed from the other end is called a LIFO (Last In,First Out) stack.",
+        "options": ["FIFO stack","LIFO stack","FILO stack","LILO stack"],
+        "answer": "LIFO stack"
+    },
+    {
+        "question": "What is the term for a stack where the elements are added to one end and removed from the same end?",
+        "information": "A stack where the elements are added to one end and removed from the same end is called a FIFO (First In,First Out) stack.",
+        "options": ["FIFO stack","LIFO stack","FILO stack","LILO stack"],
+        "answer": "FIFO stack"
+    },
+    {
+        "question": "What is the term for a stack where the elements are added to one end and removed from the opposite end?",
+        "information": "A stack where the elements are added to one end and removed from the opposite end is called a FILO (First In,Last Out) stack.",
+        "options": ["FIFO stack","LIFO stack","FILO stack","LILO stack"],
+        "answer": "FILO stack"
+    },
+    {
+        "question": "What is the term for a stack where the elements are added to and removed from the same end?",
+        "information": "A stack where the elements are added to and removed from the same end is called a LILO (Last In,Last Out) stack.",
+        "options": ["FIFO stack","LIFO stack","FILO stack","LILO stack"],
+        "answer": "LILO stack"
+    },
+    {
+        "question": "What is the term for the process of adding an element to a stack when it is full?",
+        "information": "The process of adding an element to a stack when it is full is called overflow.",
+        "options": ["Underflow","Overflow","Full","Empty"],
+        "answer": "Overflow"
+    },
+    {
+        "question": "What is the term for the process of removing an element from a stack when it is empty?",
+        "information": "The process of removing an element from a stack when it is empty is called underflow.",
+        "options": ["Underflow","Overflow","Full","Empty"],
+        "answer": "Underflow"
+    },
+    {
+        "question": "What is the term for a stack where the elements are arranged in the order opposite to the order they were added?",
+        "information": "A stack where the elements are arranged in the order opposite to the order they were added is called a reversed stack.",
+        "options": ["Reversed stack","Non-reversed stack","Sorted stack","Random stack"],
+        "answer": "Reversed stack"
+    },
+    {
+        "question": "What is the term for the maximum number of elements a stack can hold?",
+        "information": "The maximum number of elements a stack can hold is called its capacity.",
+        "options": ["Capacity","Size","Length","Limit"],
+        "answer": "Capacity"
+    },
+    {
+        "question": "What is the term for the number of elements currently in a stack?",
+        "information": "The number of elements currently in a stack is its size.",
+        "options": ["Capacity","Size","Length","Limit"],
+        "answer": "Size"
+    },
+    {
+        "question": "What is the term for a stack that has no elements?",
+        "information": "A stack with no elements is said to be empty.",
+        "options": ["Full","Empty","Overflow","Underflow"],
+        "answer": "Empty"
+    },
+    {
+        "question": "What is the term for a stack where the elements are arranged in the order they were added?",
+        "information": "A stack where the elements are arranged in the order they were added is called a non-reversed stack.",
+        "options": ["Reversed stack","Non-reversed stack","Sorted stack","Random stack"],
+        "answer": "Non-reversed stack"
+    },
+    {
+        "question": "What is the term for a stack where the elements are arranged in ascending or descending order?",
+        "information": "A stack where the elements are arranged in ascending or descending order is called a sorted stack.",
+        "options": ["Reversed stack","Non-reversed stack","Sorted stack","Random stack"],
+        "answer": "Sorted stack"
+    },
+    {
+        "question": "What is the term for a stack where the elements are arranged in a random order?",
+        "information": "A stack where the elements are arranged in a random order is called a random stack.",
+        "options": ["Reversed stack","Non-reversed stack","Sorted stack","Random stack"],
+        "answer": "Random stack"
+    },
+    {
+        "question": "What is the term for a stack that uses an array as its underlying data structure?",
+        "information": "A stack that uses an array as its underlying data structure is called an array-based stack.",
+        "options": ["Array stack","Linked stack","Dynamic stack","Static stack"],
+        "answer": "Array stack"
+    },
+    {
+        "question": "What is the term for a stack that uses a linked list as its underlying data structure?",
+        "information": "A stack that uses a linked list as its underlying data structure is called a linked stack.",
+        "options": ["Array stack","Linked stack","Dynamic stack","Static stack"],
+        "answer": "Linked stack"
+    },
+    {
+        "question": "What is the term for a stack whose size is fixed at compile time?",
+        "information": "A stack whose size is fixed at compile time is called a static stack.",
+        "options": ["Dynamic stack","Static stack","Array stack","Linked stack"],
+        "answer": "Static stack"
+    },
+    {
+        "question": "What is the term for a stack whose size can change dynamically during runtime?",
+        "information": "A stack whose size can change dynamically during runtime is called a dynamic stack.",
+        "options": ["Dynamic stack","Static stack","Array stack","Linked stack"],
+        "answer": "Dynamic stack"
+    },
+    {
+        "question": "Explain the process of simulating function calls using a stack.",
+        "information": "Describe how a stack can be used to simulate function calls in programming languages.",
+        "options": ["Pushing function names onto the stack and popping them off when functions return","Pushing function parameters onto the stack and popping them off when functions return","Pushing return addresses onto the stack and popping them off when functions return","Pushing local variables onto the stack and popping them off when functions return"],
+        "answer": "Pushing return addresses onto the stack and popping them off when functions return"
+    },
+    {
+        "question": "What is the concept of stack unwinding?",
+        "information": "Explain the process of stack unwinding and its significance in programming.",
+        "options": ["The process of removing all elements from the stack","The process of deallocating memory associated with stack variables","The process of reversing the order of elements in the stack","The process of restoring the stack to its initial state"],
+        "answer": "The process of deallocating memory associated with stack variables"
+    },
+    {
+        "question": "How does recursion utilize the stack?",
+        "information": "Discuss the relationship between recursion and the stack data structure.",
+        "options": ["Recursion uses the stack to store function names","Recursion uses the stack to store function parameters","Recursion uses the stack to store return addresses","Recursion uses the stack to store loop counters"],
+        "answer": "Recursion uses the stack to store return addresses"
+    },
+    {
+        "question": "Explain the process of evaluating postfix expressions using a stack.",
+        "information": "Describe how a stack can be used to evaluate postfix expressions efficiently.",
+        "options": ["Push operands onto the stack and perform operations when operators are encountered","Push operators onto the stack and perform operations when operands are encountered","Push operands onto the stack and perform operations when parentheses are encountered","Push operators onto the stack and perform operations when parentheses are encountered"],
+        "answer": "Push operands onto the stack and perform operations when operators are encountered"
+    },
+    {
+        "question": "What is the significance of stack-based buffer overflow vulnerabilities?",
+        "information": "Discuss the impact of stack-based buffer overflow vulnerabilities in software security.",
+        "options": ["They can lead to memory leaks","They can result in denial of service attacks","They can cause data corruption","They can enable attackers to execute arbitrary code"],
+        "answer": "They can enable attackers to execute arbitrary code"
+    },
+    {
+        "question": "Explain the process of implementing a stack using queues.",
+        "information": "Describe how queues can be used to simulate the behavior of a stack.",
+        "options": ["Enqueue elements onto one queue and dequeue them from another queue","Enqueue elements onto one queue and dequeue them from the same queue","Enqueue elements onto both queues and dequeue them alternately","Enqueue elements onto both queues and dequeue them simultaneously"],
+        "answer": "Enqueue elements onto one queue and dequeue them from the same queue"
+    },
+    {
+        "question": "What is a call stack overflow?",
+        "information": "Discuss the consequences of a call stack overflow and how it occurs.",
+        "options": ["It occurs when the stack contains too many elements","It occurs when a function calls itself indefinitely","It occurs when a function returns without removing its return address from the stack","It occurs when the stack pointer reaches its maximum value"],
+        "answer": "It occurs when the stack contains too many elements"
+    },
+    {
+        "question": "How does the stack frame layout vary between different programming languages?",
+        "information": "Discuss how stack frames are organized in memory across various programming languages.",
+        "options": ["They follow a consistent layout across all programming languages","They vary based on compiler optimizations and calling conventions","They are determined by the hardware architecture of the system","They are predefined by the operating system"],
+        "answer": "They vary based on compiler optimizations and calling conventions"
+    },
+    {
+        "question": "What is tail call optimization,and how does it affect stack usage?",
+        "information": "Explain the concept of tail call optimization and its impact on recursive functions.",
+        "options": ["It eliminates the need for stack frames,reducing stack usage","It increases the number of stack frames required for recursion","It optimizes the allocation of memory for stack variables","It prioritizes the allocation of memory for local variables"],
+        "answer": "It eliminates the need for stack frames,reducing stack usage"
+    },
+    {
+        "question": "How does dynamic memory allocation interact with the stack?",
+        "information": "Discuss the relationship between dynamic memory allocation and stack memory usage.",
+        "options": ["Dynamic memory allocation uses stack space for storing pointers","Dynamic memory allocation allocates memory directly from the stack","Dynamic memory allocation can cause stack overflow","Dynamic memory allocation is independent of stack memory"],
+        "answer": "Dynamic memory allocation can cause stack overflow"
+    },
+    {
+        "question": "Explain the concept of stack smashing.",
+        "information": "Discuss how stack smashing attacks exploit vulnerabilities in software.",
+        "options": ["They manipulate the return address stored on the stack","They overflow the stack with a large number of elements","They encrypt data stored on the stack","They compress data stored on the stack"],
+        "answer": "They manipulate the return address stored on the stack"
+    },
+    {
+        "question": "What is the purpose of using a call stack in multi-threaded applications?",
+        "information": "Explain how call stacks are utilized in the context of multi-threaded programming.",
+        "options": ["To allocate memory for thread-local variables","To manage the execution flow of individual threads","To synchronize access to shared resources","To prevent stack overflow in parallel execution"],
+        "answer": "To manage the execution flow of individual threads"
+    },
+    {
+        "question": "Discuss the role of stack frames in exception handling.",
+        "information": "Explain how stack frames facilitate exception propagation and handling.",
+        "options": ["They store information about active exception handlers","They prevent exceptions from propagating to higher levels","They maintain a record of caught exceptions","They release resources allocated by exception handlers"],
+        "answer": "They store information about active exception handlers"
+    },
+    {
+        "question": "What are stack-based virtual machines,and how are they used?",
+        "information": "Discuss the concept of stack-based virtual machines and their applications.",
+        "options": ["They execute machine code directly on the hardware stack","They use a stack to execute bytecode instructions","They simulate stack operations using virtual memory","They convert stack-based code into register-based code"],
+        "answer": "They use a stack to execute bytecode instructions"
+    },
+    {
+        "question": "Explain the role of the stack pointer register in stack operations.",
+        "information": "Discuss how the stack pointer register is used to manage the stack.",
+        "options": ["It stores the return address of the currently executing function","It points to the top of the stack","It maintains a record of active function calls","It stores the size of the stack frame"],
+        "answer": "It points to the top of the stack"
+    },
+    {
+        "question": "What is a monotonic stack?",
+        "information": "A monotonic stack is a stack data structure that maintains either non-increasing or non-decreasing order of its elements.",
+        "options": ["A stack that contains only one element","A stack that always increases in size","A stack that maintains non-increasing or non-decreasing order","A stack that is used for mathematical calculations"],
+        "answer": "A stack that maintains non-increasing or non-decreasing order"
+    },
+    {
+        "question": "What is the primary purpose of a monotonic stack?",
+        "information": "The primary purpose of a monotonic stack is to efficiently solve problems involving finding the next greater or smaller element for each element in an array.",
+        "options": ["To maintain a constant size stack","To sort the elements in a stack","To perform mathematical operations on stack elements","To efficiently find next greater or smaller elements in an array"],
+        "answer": "To efficiently find next greater or smaller elements in an array"
+    },
+    {
+        "question": "In a monotonic decreasing stack,what is the property of elements?",
+        "information": "In a monotonic decreasing stack,each element is less than or equal to the elements below it.",
+        "options": ["Each element is less than the elements below it","Each element is greater than or equal to the elements below it","Each element is equal to the elements below it","Each element is less than or equal to the elements below it"],
+        "answer": "Each element is less than or equal to the elements below it"
+    },
+    {
+        "question": "What type of problems can be efficiently solved using a monotonic stack?",
+        "information": "Monotonic stacks are particularly useful for solving problems related to finding the next greater or smaller element in an array.",
+        "options": ["Problems involving addition","Problems involving multiplication","Problems involving sorting","Problems involving finding next greater or smaller elements"],
+        "answer": "Problems involving finding next greater or smaller elements"
+    },
+    {
+        "question": "What is the primary advantage of using a monotonic stack?",
+        "information": "The primary advantage of using a monotonic stack is its ability to efficiently solve problems requiring finding next greater or smaller elements without the need for nested loops.",
+        "options": ["Efficient memory usage","Efficient time complexity","Ease of implementation","Flexibility in operations"],
+        "answer": "Efficient time complexity"
+    },
+    {
+        "question": "In a monotonic stack,what happens when an element violates the monotonicity property?",
+        "information": "When an element violates the monotonicity property of the stack,it may be removed from the stack until the property is restored.",
+        "options": ["It is added to the stack","It remains unchanged","It is removed from the stack","It triggers an error"],
+        "answer": "It is removed from the stack"
+    },
+    {
+        "question": "What is the typical approach for implementing a monotonic stack?",
+        "information": "The typical approach involves iterating through the array and maintaining the monotonic property of the stack by adding or removing elements as necessary.",
+        "options": ["Using nested loops","Using recursion","Using dynamic programming","Iterating through the array and maintaining monotonic property"],
+        "answer": "Iterating through the array and maintaining monotonic property"
+    }
+]
+

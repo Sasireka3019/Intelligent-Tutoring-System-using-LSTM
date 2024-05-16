@@ -1,0 +1,244 @@
+[
+    {
+        "question": "What is a tree in data structures?",
+        "information": "A tree is a hierarchical data structure consisting of nodes connected by edges.",
+        "options": ["A linear data structure","A hierarchical data structure","A non-linear data structure","A dynamic data structure"],
+        "answer": "A hierarchical data structure"
+    },
+    {
+        "question": "What is a node in a tree?",
+        "information": "Nodes are the fundamental building blocks of a tree.",
+        "options": ["A leaf","A connection between two edges","An element in the tree","A root"],
+        "answer": "An element in the tree"
+    },
+    {
+        "question": "What is a leaf node in a tree?",
+        "information": "Understanding different types of nodes in a tree is important.",
+        "options": ["A node with only one child","A node with no children","A node with multiple children","The root node"],
+        "answer": "A node with no children"
+    },
+    {
+        "question": "What is the root node of a tree?",
+        "information": "The root node is the topmost node in a tree.",
+        "options": ["A leaf","A connection between two edges","An element in the tree","The topmost node"],
+        "answer": "The topmost node"
+    },
+    {
+        "question": "What is a binary tree?",
+        "information": "Binary trees are a specific type of tree with each node having at most two children.",
+        "options": ["A tree with multiple roots","A tree with at most two children for each node","A tree with no leaf nodes","A tree with only one node"],
+        "answer": "A tree with at most two children for each node"
+    },
+    {
+        "question": "What is the height of a tree?",
+        "information": "The height of a tree is a measure of its vertical depth.",
+        "options": ["The number of nodes in the tree","The maximum depth of any node from the root","The number of edges in the tree","The number of levels in the tree"],
+        "answer": "The maximum depth of any node from the root"
+    },
+    {
+        "question": "What is the depth of a node in a tree?",
+        "information": "Understanding the depth of a node helps in analyzing its position within the tree.",
+        "options": ["The number of nodes in the subtree rooted at that node","The maximum depth of any node from the root","The number of edges from the root to the node","The number of levels in the subtree rooted at that node"],
+        "answer": "The number of edges from the root to the node"
+    },
+    {
+        "question": "What is an ancestor node in a tree?",
+        "information": "Ancestor nodes are important in understanding relationships within a tree.",
+        "options": ["A child node","A parent node","A node above a given node","A node below a given node"],
+        "answer": "A node above a given node"
+    },
+    {
+        "question": "What is a descendant node in a tree?",
+        "information": "Descendant nodes are important in understanding relationships within a tree.",
+        "options": ["A child node","A parent node","A node above a given node","A node below a given node"],
+        "answer": "A node below a given node"
+    },
+    {
+        "question": "What is the time complexity of searching for a node in a binary search tree?",
+        "information": "Time complexity analysis helps in understanding the efficiency of operations in trees.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What is a binary search tree (BST)?",
+        "information": "BSTs are a special type of binary tree with a specific ordering property.",
+        "options": ["A tree with at most two children for each node","A tree where nodes are arranged based on their values","A tree with no leaf nodes","A tree with only one node"],
+        "answer": "A tree where nodes are arranged based on their values"
+    },
+    {
+        "question": "What is a balanced tree?",
+        "information": "Balanced trees have a property where the height difference between left and right subtrees is minimized.",
+        "options": ["A tree with equal number of nodes in each level","A tree with minimum height","A tree with maximum height","A tree with uniform depth"],
+        "answer": "A tree with minimum height"
+    },
+    {
+        "question": "What is a traversal in a tree?",
+        "information": "Traversing a tree involves visiting each node exactly once in a systematic way.",
+        "options": ["A way to connect nodes in a tree","A way to search for a node in a tree","A way to visit each node in a tree exactly once","A way to delete nodes in a tree"],
+        "answer": "A way to visit each node in a tree exactly once"
+    },
+    {
+        "question": "What is an inorder traversal?",
+        "information": "Inorder traversal visits the left subtree, then the root, then the right subtree.",
+        "options": ["Left, Root, Right","Root, Left, Right","Left, Right, Root","Right, Left, Root"],
+        "answer": "Left, Root, Right"
+    },
+    {
+        "question": "What is a preorder traversal?",
+        "information": "Preorder traversal visits the root, then the left subtree, then the right subtree.",
+        "options": ["Left, Root, Right","Root, Left, Right","Left, Right, Root","Right, Left, Root"],
+        "answer": "Root, Left, Right"
+    },
+    {
+        "question": "What is a postorder traversal?",
+        "information": "Postorder traversal visits the left subtree, then the right subtree, then the root.",
+        "options": ["Left, Root, Right","Root, Left, Right","Left, Right, Root","Right, Left, Root"],
+        "answer": "Left, Right, Root"
+    },
+    {
+        "question": "What is a breadth-first traversal?",
+        "information": "Breadth-first traversal visits nodes level by level, starting from the root.",
+        "options": ["Left to right, top to bottom","Top to bottom, left to right","Bottom to top, right to left","Right to left, bottom to top"],
+        "answer": "Left to right, top to bottom"
+    },
+    {
+        "question": "What is a depth-first traversal?",
+        "information": "Depth-first traversal explores as far as possible along each branch before backtracking.",
+        "options": ["Left to right, top to bottom","Top to bottom, left to right","Bottom to top, right to left","Right to left, bottom to top"],
+        "answer": "Top to bottom, left to right"
+    },
+    {
+        "question": "What is the time complexity of inserting a node into a binary search tree?",
+        "information": "Understanding the efficiency of operations in trees is important.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What is the time complexity of deleting a node from a binary search tree?",
+        "information": "Understanding the efficiency of operations in trees is important.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What is a self-balancing binary search tree?",
+        "information": "Self-balancing trees automatically maintain their balanced property after insertions and deletions.",
+        "options": ["A tree where nodes automatically reposition themselves for balance","A tree with fixed height","A tree where nodes can't have more than two children","A tree with a fixed number of nodes"],
+        "answer": "A tree where nodes automatically reposition themselves for balance"
+    },
+    {
+        "question": "What is AVL tree?",
+        "information": "AVL trees are a type of self-balancing binary search tree.",
+        "options": ["A tree with maximum height","A tree with minimum height","A tree where balance factor is maintained","A tree with no leaf nodes"],
+        "answer": "A tree where balance factor is maintained"
+    },
+    {
+        "question": "What is a red-black tree?",
+        "information": "Red-black trees are another type of self-balancing binary search tree.",
+        "options": ["A tree with maximum height","A tree with minimum height","A tree where balance factor is maintained","A tree with no leaf nodes"],
+        "answer": "A tree where balance factor is maintained"
+    },
+    {
+        "question": "What is the advantage of using a red-black tree over an AVL tree?",
+        "information": "Different self-balancing trees offer different trade-offs in terms of efficiency and complexity.",
+        "options": ["Faster insertion and deletion operations","Lower memory usage","Simpler implementation","Better cache locality"],
+        "answer": "Faster insertion and deletion operations"
+    },
+    {
+        "question": "What is a binary heap?",
+        "information": "Binary heaps are a type of tree used to implement priority queues.",
+        "options": ["A tree where nodes are arranged based on their values","A tree with at most two children for each node","A tree with no leaf nodes","A tree with only one node"],
+        "answer": "A tree where nodes are arranged based on their values"
+    },
+    {
+        "question": "What is the time complexity of building a binary heap from an array?",
+        "information": "Building a binary heap involves heapifying the array.",
+        "options": ["O(1)","O(log n)","O(n)","O(n log n)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is a trie?",
+        "information": "Tries are a type of tree used to store a dynamic set of strings.",
+        "options": ["A tree with at most two children for each node","A tree where nodes are arranged based on their values","A tree with only one node","A tree where each node represents a string prefix"],
+        "answer": "A tree where each node represents a string prefix"
+    },
+    {
+        "question": "What is the time complexity of searching for a string in a trie?",
+        "information": "Tries provide efficient string search operations.",
+        "options": ["O(1)","O(log n)","O(n)","O(k)"],
+        "answer": "O(k)"
+    },
+    {
+        "question": "What is a suffix tree?",
+        "information": "Suffix trees are a type of tree used to store all the suffixes of a string.",
+        "options": ["A tree with at most two children for each node","A tree where nodes are arranged based on their values","A tree where each node represents a string suffix","A tree with only one node"],
+        "answer": "A tree where each node represents a string suffix"
+    },
+    {
+        "question": "What is the time complexity of building a suffix tree from a string?",
+        "information": "Building a suffix tree involves constructing all the suffixes of the string.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n^2)"
+    }, 
+    {
+        "question": "What is a self-balancing binary search tree?",
+        "information": "Self-balancing trees automatically maintain their balanced property after insertions and deletions.",
+        "options": ["A tree where nodes automatically reposition themselves for balance","A tree with fixed height","A tree where nodes can't have more than two children","A tree with a fixed number of nodes"],
+        "answer": "A tree where nodes automatically reposition themselves for balance"
+    },
+    {
+        "question": "What is AVL tree?",
+        "information": "AVL trees are a type of self-balancing binary search tree.",
+        "options": ["A tree with maximum height","A tree with minimum height","A tree where balance factor is maintained","A tree with no leaf nodes"],
+        "answer": "A tree where balance factor is maintained"
+    },
+    {
+        "question": "What is a red-black tree?",
+        "information": "Red-black trees are another type of self-balancing binary search tree.",
+        "options": ["A tree with maximum height","A tree with minimum height","A tree where balance factor is maintained","A tree with no leaf nodes"],
+        "answer": "A tree where balance factor is maintained"
+    },
+    {
+        "question": "What is the advantage of using a red-black tree over an AVL tree?",
+        "information": "Different self-balancing trees offer different trade-offs in terms of efficiency and complexity.",
+        "options": ["Faster insertion and deletion operations","Lower memory usage","Simpler implementation","Better cache locality"],
+        "answer": "Faster insertion and deletion operations"
+    },
+    {
+        "question": "What is a binary heap?",
+        "information": "Binary heaps are a type of tree used to implement priority queues.",
+        "options": ["A tree where nodes are arranged based on their values","A tree with at most two children for each node","A tree with no leaf nodes","A tree with only one node"],
+        "answer": "A tree where nodes are arranged based on their values"
+    },
+    {
+        "question": "What is the time complexity of building a binary heap from an array?",
+        "information": "Building a binary heap involves heapifying the array.",
+        "options": ["O(1)","O(log n)","O(n)","O(n log n)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is a trie?",
+        "information": "Tries are a type of tree used to store a dynamic set of strings.",
+        "options": ["A tree with at most two children for each node","A tree where nodes are arranged based on their values","A tree with only one node","A tree where each node represents a string prefix"],
+        "answer": "A tree where each node represents a string prefix"
+    },
+    {
+        "question": "What is the time complexity of searching for a string in a trie?",
+        "information": "Tries provide efficient string search operations.",
+        "options": ["O(1)","O(log n)","O(n)","O(k)"],
+        "answer": "O(k)"
+    },
+    {
+        "question": "What is a suffix tree?",
+        "information": "Suffix trees are a type of tree used to store all the suffixes of a string.",
+        "options": ["A tree with at most two children for each node","A tree where nodes are arranged based on their values","A tree where each node represents a string suffix","A tree with only one node"],
+        "answer": "A tree where each node represents a string suffix"
+    },
+    {
+        "question": "What is the time complexity of building a suffix tree from a string?",
+        "information": "Building a suffix tree involves constructing all the suffixes of the string.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n^2)"
+    }
+]
+
+

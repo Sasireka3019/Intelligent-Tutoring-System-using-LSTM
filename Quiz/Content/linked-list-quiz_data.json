@@ -1,0 +1,466 @@
+[
+    {
+        "question": "What is a linked list?",
+        "information": "A linked list is a linear data structure consisting of a sequence of elements,where each element points to the next one.",
+        "options": ["A data structure","A loop","A function","A variable"],
+        "answer": "A data structure"
+    },
+    {
+        "question": "What are the two main types of linked lists?",
+        "information": "Linked lists can be singly linked or doubly linked,depending on the number of references each node has.",
+        "options": ["Single and double","Primary and secondary","Singly and doubly","Forward and backward"],
+        "answer": "Singly and doubly"
+    },
+    {
+        "question": "What is a node in a linked list?",
+        "information": "A node is the basic building block of a linked list,containing data and a reference to the next node.",
+        "options": ["A connection to another node","A data element","An edge in the list","A collection of elements"],
+        "answer": "A data element"
+    },
+    {
+        "question": "What is the purpose of a head pointer in a linked list?",
+        "information": "The head pointer points to the first node in the linked list,allowing access to the entire list.",
+        "options": ["To point to the last node","To point to the middle node","To point to the first node","To point to a random node"],
+        "answer": "To point to the first node"
+    },
+    {
+        "question": "What is the purpose of a tail pointer in a linked list?",
+        "information": "The tail pointer points to the last node in the linked list,allowing efficient insertion at the end.",
+        "options": ["To point to the first node","To point to the middle node","To point to the last node","To point to a random node"],
+        "answer": "To point to the last node"
+    },
+    {
+        "question": "What is the difference between a singly linked list and a doubly linked list?",
+        "information": "Singly linked lists have nodes with only one reference (to the next node),while doubly linked lists have nodes with two references (to the next and previous nodes).",
+        "options": ["Singly linked lists have one reference per node,doubly linked lists have two","Singly linked lists are faster,doubly linked lists are slower","Singly linked lists store data,doubly linked lists store pointers","Singly linked lists are used in stacks,doubly linked lists in queues"],
+        "answer": "Singly linked lists have one reference per node,doubly linked lists have two"
+    },
+    {
+        "question": "What is the time complexity for accessing an element in a linked list?",
+        "information": "Accessing elements in a linked list involves traversing the list from the head or tail until the desired node is reached.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the time complexity for inserting an element at the beginning of a linked list?",
+        "information": "Inserting at the beginning involves creating a new node and updating the head pointer.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "What is the time complexity for inserting an element at the end of a singly linked list?",
+        "information": "Inserting at the end involves traversing the list to find the last node and then adding a new node.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the time complexity for inserting an element at the end of a doubly linked list?",
+        "information": "Doubly linked lists have a tail pointer,making insertion at the end an O(1) operation.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "What is the time complexity for deleting an element from a linked list?",
+        "information": "Deleting involves finding the node to delete and updating pointers to bypass it.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the purpose of a circular linked list?",
+        "information": "Circular linked lists have the last node pointing back to the first node,forming a circular structure.",
+        "options": ["To store data sequentially","To provide dynamic resizing","To loop back on itself for efficient access","To store data in multiple dimensions"],
+        "answer": "To loop back on itself for efficient access"
+    },
+    {
+        "question": "What is the time complexity for reversing elements in a linked list?",
+        "information": "Reversing involves changing the direction of pointers between nodes.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the time complexity for finding the middle element of a linked list?",
+        "information": "Finding the middle involves traversing the list with two pointers,one moving twice as fast as the other.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the purpose of a doubly circular linked list?",
+        "information": "Doubly circular linked lists have both the head and tail pointers pointing to the same node,forming a circular structure in both directions.",
+        "options": ["To store data sequentially","To provide dynamic resizing","To loop back on itself in both directions","To store data in multiple dimensions"],
+        "answer": "To loop back on itself in both directions"
+    },
+    {
+        "question": "What is the time complexity for finding a cycle in a linked list?",
+        "information": "Finding a cycle involves using algorithms like Floyd's cycle-finding algorithm.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the time complexity for finding the start of a cycle in a linked list?",
+        "information": "Finding the start of a cycle also involves using algorithms like Floyd's cycle-finding algorithm.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the purpose of a sorted linked list?",
+        "information": "Sorted linked lists maintain elements in sorted order,facilitating efficient searching and insertion.",
+        "options": ["To store data sequentially","To provide dynamic resizing","To maintain elements in sorted order","To loop back on itself for efficient access"],
+        "answer": "To maintain elements in sorted order"
+    },
+    {
+        "question": "What is the time complexity for searching an element in a sorted linked list?",
+        "information": "Searching in a sorted list can use binary search for O(log n) complexity.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What is the purpose of a skip list?",
+        "information": "Skip lists are a probabilistic data structure that allows for fast search,insertion,and deletion operations.",
+        "options": ["To store data sequentially","To provide dynamic resizing","To maintain elements in sorted order","To facilitate fast search operations"],
+        "answer": "To facilitate fast search operations"
+    },
+    {
+        "question": "What is the time complexity for searching an element in a skip list?",
+        "information": "Skip lists use probabilistic balancing to achieve average-case logarithmic search time.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What is the purpose of a self-adjusting linked list?",
+        "information": "Self-adjusting linked lists move accessed elements to the front,improving access time for frequently accessed elements.",
+        "options": ["To store data sequentially","To provide dynamic resizing","To maintain elements in sorted order","To improve access time for frequently accessed elements"],
+        "answer": "To improve access time for frequently accessed elements"
+    },
+    {
+        "question": "What is the time complexity for accessing an element in a self-adjusting linked list?",
+        "information": "Accessing frequently accessed elements in a self-adjusting list has average-case constant time complexity.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "What is a linked list?",
+        "information": "A linked list is a linear data structure consisting of a sequence of elements,where each element points to the next one.",
+        "options": ["A data structure","A loop","A function","A variable"],
+        "answer": "A data structure"
+    },
+    {
+        "question": "What are the two main types of linked lists?",
+        "information": "Linked lists can be singly linked or doubly linked,depending on the number of references each node has.",
+        "options": ["Single and double","Primary and secondary","Singly and doubly","Forward and backward"],
+        "answer": "Singly and doubly"
+    },
+    {
+        "question": "What is a node in a linked list?",
+        "information": "A node is the basic building block of a linked list,containing data and a reference to the next node.",
+        "options": ["A connection to another node","A data element","An edge in the list","A collection of elements"],
+        "answer": "A data element"
+    },
+    {
+        "question": "What is the purpose of a head pointer in a linked list?",
+        "information": "The head pointer points to the first node in the linked list,allowing access to the entire list.",
+        "options": ["To point to the last node","To point to the middle node","To point to the first node","To point to a random node"],
+        "answer": "To point to the first node"
+    },
+    {
+        "question": "What is the purpose of a tail pointer in a linked list?",
+        "information": "The tail pointer points to the last node in the linked list,allowing efficient insertion at the end.",
+        "options": ["To point to the first node","To point to the middle node","To point to the last node","To point to a random node"],
+        "answer": "To point to the last node"
+    },
+    {
+        "question": "What is the difference between a singly linked list and a doubly linked list?",
+        "information": "Singly linked lists have nodes with only one reference (to the next node),while doubly linked lists have nodes with two references (to the next and previous nodes).",
+        "options": ["Singly linked lists have one reference per node,doubly linked lists have two","Singly linked lists are faster,doubly linked lists are slower","Singly linked lists store data,doubly linked lists store pointers","Singly linked lists are used in stacks,doubly linked lists in queues"],
+        "answer": "Singly linked lists have one reference per node,doubly linked lists have two"
+    },
+    {
+        "question": "What is the time complexity for accessing an element in a linked list?",
+        "information": "Accessing elements in a linked list involves traversing the list from the head or tail until the desired node is reached.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the time complexity for inserting an element at the beginning of a linked list?",
+        "information": "Inserting at the beginning involves creating a new node and updating the head pointer.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "What is the time complexity for inserting an element at the end of a singly linked list?",
+        "information": "Inserting at the end involves traversing the list to find the last node and then adding a new node.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the time complexity for inserting an element at the end of a doubly linked list?",
+        "information": "Doubly linked lists have a tail pointer,making insertion at the end an O(1) operation.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "What is the time complexity for deleting an element from a linked list?",
+        "information": "Deleting involves finding the node to delete and updating pointers to bypass it.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the purpose of a circular linked list?",
+        "information": "Circular linked lists have the last node pointing back to the first node,forming a circular structure.",
+        "options": ["To store data sequentially","To provide dynamic resizing","To loop back on itself for efficient access","To store data in multiple dimensions"],
+        "answer": "To loop back on itself for efficient access"
+    },
+    {
+        "question": "What is the time complexity for reversing elements in a linked list?",
+        "information": "Reversing involves changing the direction of pointers between nodes.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the time complexity for finding the middle element of a linked list?",
+        "information": "Finding the middle involves traversing the list with two pointers,one moving twice as fast as the other.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the purpose of a doubly circular linked list?",
+        "information": "Doubly circular linked lists have both the head and tail pointers pointing to the same node,forming a circular structure in both directions.",
+        "options": ["To store data sequentially","To provide dynamic resizing","To loop back on itself in both directions","To store data in multiple dimensions"],
+        "answer": "To loop back on itself in both directions"
+    },
+    {
+        "question": "What is the time complexity for finding a cycle in a linked list?",
+        "information": "Finding a cycle involves using algorithms like Floyd's cycle-finding algorithm.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the time complexity for finding the start of a cycle in a linked list?",
+        "information": "Finding the start of a cycle also involves using algorithms like Floyd's cycle-finding algorithm.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the purpose of a sorted linked list?",
+        "information": "Sorted linked lists maintain elements in sorted order,facilitating efficient searching and insertion.",
+        "options": ["To store data sequentially","To provide dynamic resizing","To maintain elements in sorted order","To loop back on itself for efficient access"],
+        "answer": "To maintain elements in sorted order"
+    },
+    {
+        "question": "What is the time complexity for searching an element in a sorted linked list?",
+        "information": "Searching in a sorted list can use binary search for O(log n) complexity.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What is the purpose of a skip list?",
+        "information": "Skip lists are a probabilistic data structure that allows for fast search,insertion,and deletion operations.",
+        "options": ["To store data sequentially","To provide dynamic resizing","To maintain elements in sorted order","To facilitate fast search operations"],
+        "answer": "To facilitate fast search operations"
+    },
+    {
+        "question": "What is the time complexity for searching an element in a skip list?",
+        "information": "Skip lists use probabilistic balancing to achieve average-case logarithmic search time.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What is the purpose of a self-adjusting linked list?",
+        "information": "Self-adjusting linked lists move accessed elements to the front,improving access time for frequently accessed elements.",
+        "options": ["To store data sequentially","To provide dynamic resizing","To maintain elements in sorted order","To improve access time for frequently accessed elements"],
+        "answer": "To improve access time for frequently accessed elements"
+    },
+    {
+        "question": "What is the time complexity for accessing an element in a self-adjusting linked list?",
+        "information": "Accessing frequently accessed elements in a self-adjusting list has average-case constant time complexity.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "What is the difference between a singly linked list and a doubly linked list?",
+        "information": "Singly linked lists have nodes with one reference pointing to the next node,while doubly linked lists have nodes with two references,one pointing to the next node and one pointing to the previous node.",
+        "options": ["Singly linked lists are faster,doubly linked lists are slower","Singly linked lists have one reference per node,doubly linked lists have two","Singly linked lists store data,doubly linked lists store pointers","Singly linked lists have fixed size,doubly linked lists are dynamic"],
+        "answer": "Singly linked lists have one reference per node,doubly linked lists have two"
+    },
+    {
+        "question": "What is the purpose of a circular linked list?",
+        "information": "Circular linked lists have the last node pointing back to the first node,creating a circular structure.",
+        "options": ["To store data sequentially","To provide dynamic resizing","To loop back on itself for efficient access","To store data in multiple dimensions"],
+        "answer": "To loop back on itself for efficient access"
+    },
+    {
+        "question": "What is the difference between a singly circular linked list and a doubly circular linked list?",
+        "information": "Singly circular linked lists have nodes with one reference pointing to the next node,with the last node pointing back to the first node. Doubly circular linked lists have nodes with two references,one pointing to the next node and one pointing to the previous node,with both the first and last nodes pointing to each other.",
+        "options": ["Singly circular linked lists are faster,doubly circular linked lists are slower","Singly circular linked lists have one reference per node,doubly circular linked lists have two","Singly circular linked lists store data,doubly circular linked lists store pointers","Singly circular linked lists have fixed size,doubly circular linked lists are dynamic"],
+        "answer": "Singly circular linked lists have one reference per node,doubly circular linked lists have two"
+    },
+    {
+        "question": "What is the purpose of a skip list?",
+        "information": "Skip lists are probabilistic data structures that allow for efficient search,insertion,and deletion operations.",
+        "options": ["To store data sequentially","To provide dynamic resizing","To maintain elements in sorted order","To facilitate fast search operations"],
+        "answer": "To facilitate fast search operations"
+    },
+    {
+        "question": "What is the purpose of a self-adjusting linked list?",
+        "information": "Self-adjusting linked lists reorder elements based on access frequency to improve access time for frequently accessed elements.",
+        "options": ["To store data sequentially","To provide dynamic resizing","To maintain elements in sorted order","To improve access time for frequently accessed elements"],
+        "answer": "To improve access time for frequently accessed elements"
+    },
+    {
+        "question": "What is the difference between a singly linked list and an array?",
+        "information": "Singly linked lists are dynamic data structures with variable size and efficient insertion and deletion operations. Arrays have fixed size and less efficient insertion and deletion operations.",
+        "options": ["Singly linked lists have fixed size,arrays are dynamic","Singly linked lists store data,arrays store pointers","Singly linked lists have one reference per node,arrays have two","Singly linked lists are faster,arrays are slower"],
+        "answer": "Singly linked lists have one reference per node,arrays have two"
+    },
+    {
+        "question": "What is the difference between a doubly linked list and a circular linked list?",
+        "information": "Doubly linked lists have nodes with two references,one pointing to the next node and one pointing to the previous node. Circular linked lists have the last node pointing back to the first node,forming a circular structure.",
+        "options": ["Doubly linked lists have fixed size,circular linked lists are dynamic","Doubly linked lists store data,circular linked lists store pointers","Doubly linked lists have one reference per node,circular linked lists have two","Doubly linked lists are faster,circular linked lists are slower"],
+        "answer": "Doubly linked lists have one reference per node,circular linked lists have two"
+    },
+    {
+        "question": "What is the difference between a singly circular linked list and a doubly circular linked list?",
+        "information": "Singly circular linked lists have nodes with one reference pointing to the next node,with the last node pointing back to the first node. Doubly circular linked lists have nodes with two references,one pointing to the next node and one pointing to the previous node,with both the first and last nodes pointing to each other.",
+        "options": ["Singly circular linked lists have fixed size,doubly circular linked lists are dynamic","Singly circular linked lists store data,doubly circular linked lists store pointers","Singly circular linked lists are faster,doubly circular linked lists are slower","Singly circular linked lists have one reference per node,doubly circular linked lists have two"],
+        "answer": "Singly circular linked lists have one reference per node,doubly circular linked lists have two"
+    },
+    {
+        "question": "What is the difference between a skip list and a self-adjusting linked list?",
+        "information": "Skip lists are probabilistic data structures that allow for efficient search,insertion,and deletion operations. Self-adjusting linked lists reorder elements based on access frequency to improve access time for frequently accessed elements.",
+        "options": ["Skip lists have fixed size,self-adjusting linked lists are dynamic","Skip lists store data,self-adjusting linked lists store pointers","Skip lists facilitate fast search operations,self-adjusting linked lists improve access time for frequently accessed elements","Skip lists have one reference per node,self-adjusting linked lists have two"],
+        "answer": "Skip lists facilitate fast search operations,self-adjusting linked lists improve access time for frequently accessed elements"
+    },
+    {
+        "question": "What is the difference between a singly linked list and a doubly circular linked list?",
+        "information": "Singly linked lists have nodes with one reference pointing to the next node. Doubly circular linked lists have nodes with two references,one pointing to the next node and one pointing to the previous node,with both the first and last nodes pointing to each other.",
+        "options": ["Singly linked lists have fixed size,doubly circular linked lists are dynamic","Singly linked lists store data,doubly circular linked lists store pointers","Singly linked lists are faster,doubly circular linked lists are slower","Singly linked lists have one reference per node,doubly circular linked lists have two"],
+        "answer": "Singly linked lists have one reference per node,doubly circular linked lists have two"
+    },
+    {
+        "question": "What is the difference between a doubly linked list and a skip list?",
+        "information": "Doubly linked lists have nodes with two references,one pointing to the next node and one pointing to the previous node. Skip lists are probabilistic data structures that allow for efficient search,insertion,and deletion operations.",
+        "options": ["Doubly linked lists have fixed size,skip lists are dynamic","Doubly linked lists store data,skip lists store pointers","Doubly linked lists have one reference per node,skip lists have two","Doubly linked lists facilitate fast search operations,skip lists improve access time for frequently accessed elements"],
+        "answer": "Doubly linked lists have one reference per node,skip lists have two"
+    },
+    {
+        "question": "What is the difference between a singly linked list and a skip list?",
+        "information": "Singly linked lists have nodes with one reference pointing to the next node. Skip lists are probabilistic data structures that allow for efficient search,insertion,and deletion operations.",
+        "options": ["Singly linked lists have fixed size,skip lists are dynamic","Singly linked lists store data,skip lists store pointers","Singly linked lists are faster,skip lists are slower","Singly linked lists have one reference per node,skip lists have two"],
+        "answer": "Singly linked lists have one reference per node,skip lists have two"
+    },
+    {
+        "question": "What is the difference between a singly circular linked list and a skip list?",
+        "information": "Singly circular linked lists have nodes with one reference pointing to the next node,with the last node pointing back to the first node. Skip lists are probabilistic data structures that allow for efficient search,insertion,and deletion operations.",
+        "options": ["Singly circular linked lists have fixed size,skip lists are dynamic","Singly circular linked lists store data,skip lists store pointers","Singly circular linked lists are faster,skip lists are slower","Singly circular linked lists have one reference per node,skip lists have two"],
+        "answer": "Singly circular linked lists have one reference per node,skip lists have two"
+    },
+    {
+        "question": "What is the difference between a doubly circular linked list and a skip list?",
+        "information": "Doubly circular linked lists have nodes with two references,one pointing to the next node and one pointing to the previous node,with both the first and last nodes pointing to each other. Skip lists are probabilistic data structures that allow for efficient search,insertion,and deletion operations.",
+        "options": ["Doubly circular linked lists have fixed size,skip lists are dynamic","Doubly circular linked lists store data,skip lists store pointers","Doubly circular linked lists are faster,skip lists are slower","Doubly circular linked lists have one reference per node,skip lists have two"],
+        "answer": "Doubly circular linked lists have one reference per node,skip lists have two"
+    },
+    {
+        "question": "What is the difference between a singly circular linked list and a self-adjusting linked list?",
+        "information": "Singly circular linked lists have nodes with one reference pointing to the next node,with the last node pointing back to the first node. Self-adjusting linked lists reorder elements based on access frequency to improve access time for frequently accessed elements.",
+        "options": ["Singly circular linked lists have fixed size,self-adjusting linked lists are dynamic","Singly circular linked lists store data,self-adjusting linked lists store pointers","Singly circular linked lists are faster,self-adjusting linked lists are slower","Singly circular linked lists have one reference per node,self-adjusting linked lists have two"],
+        "answer": "Singly circular linked lists have one reference per node,self-adjusting linked lists have two"
+    },
+    {
+        "question": "What is the difference between a doubly circular linked list and a self-adjusting linked list?",
+        "information": "Doubly circular linked lists have nodes with two references,one pointing to the next node and one pointing to the previous node,with both the first and last nodes pointing to each other. Self-adjusting linked lists reorder elements based on access frequency to improve access time for frequently accessed elements.",
+        "options": ["Doubly circular linked lists have fixed size,self-adjusting linked lists are dynamic","Doubly circular linked lists store data,self-adjusting linked lists store pointers","Doubly circular linked lists are faster,self-adjusting linked lists are slower","Doubly circular linked lists have one reference per node,self-adjusting linked lists have two"],
+        "answer": "Doubly circular linked lists have one reference per node,self-adjusting linked lists have two"
+    },
+    {
+        "question": "What is the difference between a skip list and a singly circular linked list?",
+        "information": "Skip lists are probabilistic data structures that allow for efficient search,insertion,and deletion operations. Singly circular linked lists have nodes with one reference pointing to the next node,with the last node pointing back to the first node.",
+        "options": ["Skip lists have fixed size,singly circular linked lists are dynamic","Skip lists store data,singly circular linked lists store pointers","Skip lists facilitate fast search operations,singly circular linked lists improve access time for frequently accessed elements","Skip lists have one reference per node,singly circular linked lists have two"],
+        "answer": "Skip lists facilitate fast search operations,singly circular linked lists improve access time for frequently accessed elements"
+    },
+    {
+        "question": "What is the difference between a skip list and a doubly circular linked list?",
+        "information": "Skip lists are probabilistic data structures that allow for efficient search,insertion,and deletion operations. Doubly circular linked lists have nodes with two references,one pointing to the next node and one pointing to the previous node,with both the first and last nodes pointing to each other.",
+        "options": ["Skip lists have fixed size,doubly circular linked lists are dynamic","Skip lists store data,doubly circular linked lists store pointers","Skip lists facilitate fast search operations,doubly circular linked lists improve access time for frequently accessed elements","Skip lists have one reference per node,doubly circular linked lists have two"],
+        "answer": "Skip lists facilitate fast search operations,doubly circular linked lists improve access time for frequently accessed elements"
+    },
+    {
+        "question": "What is the difference between a skip list and a self-adjusting linked list?",
+        "information": "Skip lists are probabilistic data structures that allow for efficient search,insertion,and deletion operations. Self-adjusting linked lists reorder elements based on access frequency to improve access time for frequently accessed elements.",
+        "options": ["Skip lists have fixed size,self-adjusting linked lists are dynamic","Skip lists store data,self-adjusting linked lists store pointers","Skip lists facilitate fast search operations,self-adjusting linked lists improve access time for frequently accessed elements","Skip lists have one reference per node,self-adjusting linked lists have two"],
+        "answer": "Skip lists facilitate fast search operations,self-adjusting linked lists improve access time for frequently accessed elements"
+    },
+    {
+        "question": "What is the difference between a self-adjusting linked list and a singly circular linked list?",
+        "information": "Self-adjusting linked lists reorder elements based on access frequency to improve access time for frequently accessed elements. Singly circular linked lists have nodes with one reference pointing to the next node,with the last node pointing back to the first node.",
+        "options": ["Self-adjusting linked lists have fixed size,singly circular linked lists are dynamic","Self-adjusting linked lists store data,singly circular linked lists store pointers","Self-adjusting linked lists are faster,singly circular linked lists are slower","Self-adjusting linked lists have one reference per node,singly circular linked lists have two"],
+        "answer": "Self-adjusting linked lists have one reference per node,singly circular linked lists have two"
+    },
+    {
+        "question": "What is the difference between a self-adjusting linked list and a doubly circular linked list?",
+        "information": "Self-adjusting linked lists reorder elements based on access frequency to improve access time for frequently accessed elements. Doubly circular linked lists have nodes with two references,one pointing to the next node and one pointing to the previous node,with both the first and last nodes pointing to each other.",
+        "options": ["Self-adjusting linked lists have fixed size,doubly circular linked lists are dynamic","Self-adjusting linked lists store data,doubly circular linked lists store pointers","Self-adjusting linked lists are faster,doubly circular linked lists are slower","Self-adjusting linked lists have one reference per node,doubly circular linked lists have two"],
+        "answer": "Self-adjusting linked lists have one reference per node,doubly circular linked lists have two"
+    },
+    {
+        "question": "Explain how to detect and remove a cycle in a linked list.",
+        "information": "Cycles in linked lists occur when a node points back to a previous node in the list,forming a loop. Removing a cycle involves detecting the cycle using Floyd's cycle detection algorithm and then breaking the cycle.",
+        "options": ["By using depth-first search","By using breadth-first search","By using Floyd's cycle detection algorithm","By using Dijkstra's algorithm"],
+        "answer": "By using Floyd's cycle detection algorithm"
+    },
+    {
+        "question": "Describe how to reverse every k nodes of a linked list.",
+        "information": "Given a linked list and a number k,reverse every k nodes in the linked list.",
+        "options": ["Using a stack","Using recursion","Using iterative approach","Using queue"],
+        "answer": "Using recursion"
+    },
+    {
+        "question": "Explain how to merge two sorted linked lists into one sorted linked list.",
+        "information": "Given two sorted linked lists,merge them into one sorted linked list.",
+        "options": ["Using insertion sort","Using quicksort","Using merge sort","Using selection sort"],
+        "answer": "Using merge sort"
+    },
+    {
+        "question": "Describe an efficient algorithm to find the intersection point of two linked lists.",
+        "information": "Given two linked lists that intersect at some point,find the intersection point.",
+        "options": ["Using brute force approach","Using hash tables","Using two pointers","Using binary search"],
+        "answer": "Using two pointers"
+    },
+    {
+        "question": "Explain how to detect if two linked lists intersect and find the intersection point.",
+        "information": "Given two linked lists,determine if they intersect and find the intersection point if they do.",
+        "options": ["Using depth-first search","Using breadth-first search","Using Floyd's cycle detection algorithm","Using two pointers"],
+        "answer": "Using two pointers"
+    },
+    {
+        "question": "Describe an algorithm to partition a linked list around a given value.",
+        "information": "Given a linked list and a value x,partition it such that all nodes less than x come before nodes greater than or equal to x.",
+        "options": ["Using merge sort","Using quicksort","Using selection sort","Using insertion sort"],
+        "answer": "Using quicksort"
+    },
+    {
+        "question": "Explain how to detect if a linked list has a palindrome structure.",
+        "information": "Given a linked list,determine if it forms a palindrome (reads the same forwards and backwards).",
+        "options": ["Using recursion","Using a stack","Using two pointers","Using hash tables"],
+        "answer": "Using two pointers"
+    },
+    {
+        "question": "Describe an algorithm to find the kth node from the end of a linked list.",
+        "information": "Given a linked list,find the kth node from the end of the list.",
+        "options": ["Using recursion","Using a stack","Using two pointers","Using hash tables"],
+        "answer": "Using two pointers"
+    },
+    {
+        "question": "Explain how to detect and remove duplicates from an unsorted linked list.",
+        "information": "Given an unsorted linked list,detect and remove any duplicate nodes.",
+        "options": ["Using merge sort","Using quicksort","Using selection sort","Using hash tables"],
+        "answer": "Using hash tables"
+    },
+    {
+        "question": "Describe an algorithm to detect if a linked list has a loop and find the start of the loop.",
+        "information": "Given a linked list with a loop,detect if it has a loop and find the start of the loop.",
+        "options": ["Using depth-first search","Using breadth-first search","Using Floyd's cycle detection algorithm","Using two pointers"],
+        "answer": "Using Floyd's cycle detection algorithm"
+    }
+]
+
+

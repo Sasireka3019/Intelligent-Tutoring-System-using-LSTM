@@ -1,0 +1,183 @@
+[
+    {
+        "question": "What is dynamic programming?",
+        "information": "Dynamic programming is a method for solving complex problems by breaking them down into simpler subproblems and solving each subproblem only once.",
+        "options": ["A method for solving problems by dividing them into subproblems and solving each subproblem multiple times","A method for solving problems by breaking them down into simpler subproblems and solving each subproblem only once","A method for solving problems by using recursion","A method for solving problems by using iteration"],
+        "answer": "A method for solving problems by breaking them down into simpler subproblems and solving each subproblem only once"
+    },
+    {
+        "question": "What is memoization in dynamic programming?",
+        "information": "Memoization is a technique used to optimize dynamic programming algorithms by storing the results of expensive function calls and returning the cached result when the same inputs occur again.",
+        "options": ["A technique to optimize memory usage in dynamic programming","A technique to store and reuse previously computed results","A technique to convert recursive calls into iterative calls","A technique to convert iterative calls into recursive calls"],
+        "answer": "A technique to store and reuse previously computed results"
+    },
+    {
+        "question": "What is tabulation in dynamic programming?",
+        "information": "Tabulation is a bottom-up approach in dynamic programming where solutions to subproblems are built iteratively from the bottom up.",
+        "options": ["A top-down approach in dynamic programming","An approach that starts with the smallest subproblems","An approach that uses recursion","An approach that builds solutions iteratively from the top down"],
+        "answer": "An approach that builds solutions iteratively from the bottom up"
+    },
+    {
+        "question": "What is the overlapping subproblems property in dynamic programming?",
+        "information": "The overlapping subproblems property states that the solution to a problem may involve solving the same subproblem multiple times.",
+        "options": ["A property that allows for the use of memoization","A property that allows for the use of tabulation","A property that avoids recomputation of subproblems","A property that ensures optimal substructure"],
+        "answer": "A property that allows for the use of memoization"
+    },
+    {
+        "question": "What is the optimal substructure property in dynamic programming?",
+        "information": "The optimal substructure property states that an optimal solution to a problem can be constructed from optimal solutions to its subproblems.",
+        "options": ["A property that allows for the use of memoization","A property that allows for the use of tabulation","A property that ensures optimal subproblems are solved only once","A property that ensures the problem can be divided into subproblems"],
+        "answer": "A property that ensures optimal solutions to subproblems can be used to construct an optimal solution to the problem"
+    },
+    {
+        "question": "What is the time complexity of a dynamic programming algorithm with 'n' subproblems?",
+        "information": "The time complexity of dynamic programming algorithms depends on the number of subproblems and the time taken to solve each subproblem.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "Depends on the specific algorithm"
+    },
+    {
+        "question": "What is the Fibonacci sequence?",
+        "information": "The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1.",
+        "options": ["0, 1, 1, 2, 3, 5, 8, ...","1, 2, 3, 5, 7, 11, 13, ...","2, 4, 8, 16, 32, 64, ...","1, 3, 6, 10, 15, 21, ..."],
+        "answer": "0, 1, 1, 2, 3, 5, 8, ..."
+    },
+    {
+        "question": "What is the recursive approach to calculating the Fibonacci sequence?",
+        "information": "The Fibonacci sequence can be calculated recursively using the formula F(n) = F(n-1) + F(n-2), with base cases F(0) = 0 and F(1) = 1.",
+        "options": ["F(n) = n + F(n-1)","F(n) = n * F(n-1)","F(n) = F(n-1) - F(n-2)","F(n) = F(n-1) + F(n-2)"],
+        "answer": "F(n) = F(n-1) + F(n-2)"
+    },
+    {
+        "question": "What is the iterative approach to calculating the Fibonacci sequence?",
+        "information": "The Fibonacci sequence can be calculated iteratively by starting from the base cases and building up the sequence until the desired number is reached.",
+        "options": ["Using a recursive function","Using a loop","Using memoization","Using tabulation"],
+        "answer": "Using a loop"
+    },
+    {
+        "question": "What is the time complexity of the iterative approach to calculating the Fibonacci sequence?",
+        "information": "The time complexity of the iterative approach to calculating the Fibonacci sequence is linear in the number of elements in the sequence.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the longest common subsequence problem?",
+        "information": "The longest common subsequence problem is a classic problem in dynamic programming where the goal is to find the longest subsequence that is present in both of the given sequences.",
+        "options": ["A problem that involves finding the longest subsequence present in two sequences","A problem that involves finding the longest subsequence present in a single sequence","A problem that involves finding the longest substring present in two sequences","A problem that involves finding the longest substring present in a single sequence"],
+        "answer": "A problem that involves finding the longest subsequence present in two sequences"
+    },
+    {
+        "question": "What is the time complexity of the longest common subsequence problem?",
+        "information": "The time complexity of the longest common subsequence problem depends on the lengths of the input sequences and the algorithm used to solve it.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "Depends on the specific algorithm"
+    },
+    {
+        "question": "What is the knapsack problem?",
+        "information": "The knapsack problem is a classic problem in combinatorial optimization where the goal is to maximize the value of items selected for a knapsack without exceeding its capacity.",
+        "options": ["A problem that involves maximizing the value of items selected for a knapsack","A problem that involves minimizing the value of items selected for a knapsack","A problem that involves finding the capacity of a knapsack","A problem that involves finding the number of items selected for a knapsack"],
+        "answer": "A problem that involves maximizing the value of items selected for a knapsack"
+    },
+    {
+        "question": "What is the time complexity of the knapsack problem?",
+        "information": "The time complexity of the knapsack problem depends on the number of items and the capacity of the knapsack.",
+        "options": ["O(1)","O(log n)","O(n)","O(nW)"],
+        "answer": "Depends on the specific algorithm"
+    },
+    {
+        "question": "What is the rod cutting problem?",
+        "information": "The rod cutting problem is a classic problem in dynamic programming where the goal is to maximize the profit from cutting a rod of given length into pieces of various lengths.",
+        "options": ["A problem that involves minimizing the length of a rod","A problem that involves maximizing the profit from cutting a rod","A problem that involves finding the length of a rod","A problem that involves finding the number of cuts in a rod"],
+        "answer": "A problem that involves maximizing the profit from cutting a rod"
+    },
+    {
+        "question": "What is the time complexity of the rod cutting problem?",
+        "information": "The time complexity of the rod cutting problem depends on the length of the rod and the algorithm used to solve it.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "Depends on the specific algorithm"
+    },
+    {
+        "question": "What is the coin change problem?",
+        "information": "The coin change problem is a classic problem in dynamic programming where the goal is to find the minimum number of coins required to make a given amount of money.",
+        "options": ["A problem that involves finding the maximum number of coins required to make a given amount of money","A problem that involves finding the minimum number of coins required to make a given amount of money","A problem that involves finding the total value of coins required to make a given amount of money","A problem that involves finding the types of coins required to make a given amount of money"],
+        "answer": "A problem that involves finding the minimum number of coins required to make a given amount of money"
+    },
+    {
+        "question": "What is the time complexity of the coin change problem?",
+        "information": "The time complexity of the coin change problem depends on the amount of money and the denominations of coins.",
+        "options": ["O(1)","O(log n)","O(n)","O(nW)"],
+        "answer": "Depends on the specific algorithm"
+    },
+    {
+        "question": "What is the edit distance problem?",
+        "information": "The edit distance problem is a classic problem in dynamic programming where the goal is to find the minimum number of operations required to transform one string into another.",
+        "options": ["A problem that involves finding the maximum number of operations required to transform one string into another","A problem that involves finding the minimum number of operations required to transform one string into another","A problem that involves finding the number of common characters between two strings","A problem that involves finding the longest common substring between two strings"],
+        "answer": "A problem that involves finding the minimum number of operations required to transform one string into another"
+    },
+    {
+        "question": "What is the time complexity of the edit distance problem?",
+        "information": "The time complexity of the edit distance problem depends on the lengths of the input strings.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "Depends on the specific algorithm"
+    },
+    
+    {
+        "question": "What is the traveling salesman problem?",
+        "information": "The traveling salesman problem is a classic problem in combinatorial optimization where the goal is to find the shortest possible route that visits each city exactly once and returns to the starting city.",
+        "options": ["A problem that involves finding the longest possible route that visits each city exactly once","A problem that involves finding the shortest possible route that visits each city exactly once and returns to the starting city","A problem that involves finding the shortest route that visits each city multiple times","A problem that involves finding the longest route that visits each city multiple times"],
+        "answer": "A problem that involves finding the shortest possible route that visits each city exactly once and returns to the starting city"
+    },
+    {
+        "question": "What is the time complexity of the traveling salesman problem?",
+        "information": "The time complexity of the traveling salesman problem depends on the number of cities and the algorithm used to solve it.",
+        "options": ["O(1)","O(log n)","O(n)","O(n!)"],
+        "answer": "Depends on the specific algorithm"
+    },
+    {
+        "question": "What is the subset sum problem?",
+        "information": "The subset sum problem is a classic problem in computer science where the goal is to determine whether a subset of a given set of integers adds up to a given target sum.",
+        "options": ["A problem that involves finding the maximum sum of a subset of integers","A problem that involves finding the minimum sum of a subset of integers","A problem that involves finding a subset of integers with a given sum","A problem that involves finding all subsets of integers"],
+        "answer": "A problem that involves finding a subset of integers with a given sum"
+    },
+    {
+        "question": "What is the time complexity of the subset sum problem?",
+        "information": "The time complexity of the subset sum problem depends on the size of the input set and the target sum.",
+        "options": ["O(1)","O(log n)","O(n)","O(2^n)"],
+        "answer": "Depends on the specific algorithm"
+    },
+    {
+        "question": "What is the longest increasing subsequence problem?",
+        "information": "The longest increasing subsequence problem is a classic problem in dynamic programming where the goal is to find the length of the longest subsequence of a given sequence such that all elements of the subsequence are sorted in increasing order.",
+        "options": ["A problem that involves finding the longest subsequence of a given sequence","A problem that involves finding the longest increasing subsequence of a given sequence","A problem that involves finding the longest decreasing subsequence of a given sequence","A problem that involves finding the longest common subsequence of two sequences"],
+        "answer": "A problem that involves finding the length of the longest increasing subsequence of a given sequence"
+    },
+    {
+        "question": "What is the time complexity of the longest increasing subsequence problem?",
+        "information": "The time complexity of the longest increasing subsequence problem depends on the length of the input sequence.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "Depends on the specific algorithm"
+    },
+    {
+        "question": "What is the maximum subarray problem?",
+        "information": "The maximum subarray problem is a classic problem in computer science where the goal is to find the contiguous subarray within a one-dimensional array that has the largest sum.",
+        "options": ["A problem that involves finding the smallest subarray within a one-dimensional array","A problem that involves finding the largest subarray within a one-dimensional array","A problem that involves finding the subarray with the most elements within a one-dimensional array","A problem that involves finding the subarray with the fewest elements within a one-dimensional array"],
+        "answer": "A problem that involves finding the contiguous subarray within a one-dimensional array that has the largest sum"
+    },
+    {
+        "question": "What is the time complexity of the maximum subarray problem?",
+        "information": "The time complexity of the maximum subarray problem depends on the size of the input array.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "Depends on the specific algorithm"
+    },
+    {
+        "question": "What is the longest palindromic subsequence problem?",
+        "information": "The longest palindromic subsequence problem is a classic problem in dynamic programming where the goal is to find the length of the longest subsequence of a given string that is also a palindrome.",
+        "options": ["A problem that involves finding the longest subsequence of a given string","A problem that involves finding the longest palindromic subsequence of a given string","A problem that involves finding the longest non-palindromic subsequence of a given string","A problem that involves finding the longest common subsequence of two strings"],
+        "answer": "A problem that involves finding the length of the longest palindromic subsequence of a given string"
+    },
+    {
+        "question": "What is the time complexity of the longest palindromic subsequence problem?",
+        "information": "The time complexity of the longest palindromic subsequence problem depends on the length of the input string.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "Depends on the specific algorithm"
+    }
+]

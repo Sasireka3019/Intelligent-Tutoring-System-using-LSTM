@@ -1,0 +1,242 @@
+[
+    {
+        "question": "What is searching in computer science?",
+        "information": "Searching is the process of finding a particular item in a collection of items.",
+        "options": ["Arranging items in a specific order","Finding a particular item in a collection","Reversing the order of items","Shuffling items randomly"],
+        "answer": "Finding a particular item in a collection"
+    },
+    {
+        "question": "What is linear search?",
+        "information": "Linear search sequentially checks each element in a list until the target element is found or the end of the list is reached.",
+        "options": ["A search algorithm that divides the search interval in half","A search algorithm that sequentially checks each element","A search algorithm based on comparing elements","A search algorithm that uses a hash function"],
+        "answer": "A search algorithm that sequentially checks each element"
+    },
+    {
+        "question": "What is binary search?",
+        "information": "Binary search is a search algorithm that finds the position of a target value within a sorted array.",
+        "options": ["A search algorithm that divides the search interval in half","A search algorithm that sequentially checks each element","A search algorithm based on comparing elements","A search algorithm that uses a hash function"],
+        "answer": "A search algorithm that divides the search interval in half"
+    },
+    {
+        "question": "What is a key in searching algorithms?",
+        "information": "A key is the value being searched for in a collection of items.",
+        "options": ["The position of an element in the collection","The value being searched for","The number of comparisons made","The index of the middle element"],
+        "answer": "The value being searched for"
+    },
+    {
+        "question": "What is the time complexity of linear search?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "information": "Binary search has a significantly better time complexity compared to linear search for large arrays.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What is the main requirement for binary search to work?",
+        "information": "Binary search requires the array to be sorted in ascending or descending order.",
+        "options": ["The array must contain unique elements","The array must be of fixed size","The array must be circular","The array must be sorted"],
+        "answer": "The array must be sorted"
+    },
+    {
+        "question": "What happens if binary search is performed on an unsorted array?",
+        "information": "Binary search relies on the sorted nature of the array to efficiently find elements.",
+        "options": ["It always returns the correct result","It may return incorrect results","It throws an error","It runs indefinitely"],
+        "answer": "It may return incorrect results"
+    },
+    {
+        "question": "What is a sentinel value in searching algorithms?",
+        "information": "A sentinel value is a special marker used to indicate the end of a data structure.",
+        "options": ["A value used to mark the beginning of a data structure","A value used to mark the middle of a data structure","A value used to indicate the end of a data structure","A value used to indicate the start of a search"],
+        "answer": "A value used to indicate the end of a data structure"
+    },
+    {
+        "question": "What is interpolation search?",
+        "information": "Interpolation search is an improved variant of binary search that works well for uniformly distributed datasets.",
+        "options": ["A search algorithm based on comparing elements","A search algorithm that divides the search interval in half","A search algorithm that uses a hash function","A search algorithm that estimates the position of the target element"],
+        "answer": "A search algorithm that estimates the position of the target element"
+    },
+    {
+        "question": "What is exponential search?",
+        "information": "Exponential search involves two steps: first, finding a range where the target element may be present, and then performing binary search within that range.",
+        "options": ["A search algorithm based on comparing elements","A search algorithm that divides the search interval in half","A search algorithm that grows the search range exponentially","A search algorithm that estimates the position of the target element"],
+        "answer": "A search algorithm that grows the search range exponentially"
+    },
+    {
+        "question": "What is the time complexity of exponential search?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What is jump search?",
+        "information": "Jump search works by jumping ahead by fixed steps and then performing linear search in the smaller interval.",
+        "options": ["A search algorithm based on comparing elements","A search algorithm that divides the search interval in half","A search algorithm that grows the search range exponentially","A search algorithm that jumps ahead by fixed steps"],
+        "answer": "A search algorithm that jumps ahead by fixed steps"
+    },
+    {
+        "question": "What is the time complexity of jump search?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(√n)"
+    },
+    {
+        "question": "What is ternary search?",
+        "information": "Ternary search is an algorithm that searches for an element in a sorted array by dividing the search interval into three parts.",
+        "options": ["A search algorithm based on comparing elements","A search algorithm that divides the search interval in three parts","A search algorithm that grows the search range exponentially","A search algorithm that estimates the position of the target element"],
+        "answer": "A search algorithm that divides the search interval in three parts"
+    },
+    {
+        "question": "What is the time complexity of ternary search?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(log₃n)"
+    },
+    {
+        "question": "What is Fibonacci search?",
+        "information": "Fibonacci search is an efficient search algorithm that uses Fibonacci numbers to divide the array into smaller parts.",
+        "options": ["A search algorithm based on comparing elements","A search algorithm that divides the search interval in half","A search algorithm that grows the search range exponentially","A search algorithm that estimates the position of the target element using Fibonacci numbers"],
+        "answer": "A search algorithm that estimates the position of the target element using Fibonacci numbers"
+    },
+    {
+        "question": "What is the time complexity of Fibonacci search?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What is the Boyer-Moore algorithm?",
+        "information": "Boyer-Moore is a powerful string searching algorithm known for its efficiency in finding substrings within larger strings.",
+        "options": ["An algorithm for searching within strings","An algorithm for sorting arrays","An algorithm for searching within graphs","An algorithm for searching within trees"],
+        "answer": "An algorithm for searching within strings"
+    },
+    {
+        "question": "What is the time complexity of the Boyer-Moore algorithm?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(n + m)"],
+        "answer": "O(n + m)"
+    }, 
+    {
+        "question": "What is the Knuth-Morris-Pratt algorithm?",
+        "information": "The Knuth-Morris-Pratt algorithm is a string searching algorithm known for its efficiency in finding occurrences of a substring within a larger string.",
+        "options": ["An algorithm for searching within strings","An algorithm for sorting arrays","An algorithm for searching within graphs","An algorithm for searching within trees"],
+        "answer": "An algorithm for searching within strings"
+    },
+    {
+        "question": "What is the time complexity of the Knuth-Morris-Pratt algorithm?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(n + m)"],
+        "answer": "O(n + m)"
+    },
+    {
+        "question": "What is the Rabin-Karp algorithm?",
+        "information": "The Rabin-Karp algorithm is a string searching algorithm that uses hashing to find any one of a set of pattern strings in a text.",
+        "options": ["An algorithm for searching within strings","An algorithm for sorting arrays","An algorithm for searching within graphs","An algorithm for searching within trees"],
+        "answer": "An algorithm for searching within strings"
+    },
+    {
+        "question": "What is the time complexity of the Rabin-Karp algorithm?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(n + m)"],
+        "answer": "O(nm)"
+    },
+    {
+        "question": "What is the A* search algorithm?",
+        "information": "A* is an informed search algorithm that searches for the shortest path between a given start node and a target node.",
+        "options": ["An algorithm for searching within strings","An algorithm for searching within graphs","An algorithm for sorting arrays","An algorithm for searching within trees"],
+        "answer": "An algorithm for searching within graphs"
+    },
+    {
+        "question": "What is the time complexity of the A* search algorithm?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(E + V log V)"],
+        "answer": "O(E + V log V)"
+    },
+    {
+        "question": "What is the Dijkstra's algorithm?",
+        "information": "Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks.",
+        "options": ["An algorithm for searching within strings","An algorithm for searching within graphs","An algorithm for sorting arrays","An algorithm for searching within trees"],
+        "answer": "An algorithm for searching within graphs"
+    },
+    {
+        "question": "What is the time complexity of Dijkstra's algorithm?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(E + V log V)"],
+        "answer": "O(E + V log V)"
+    },
+    {
+        "question": "What is the Bellman-Ford algorithm?",
+        "information": "The Bellman-Ford algorithm is an algorithm that computes shortest paths from a single source vertex to all other vertices in a weighted graph.",
+        "options": ["An algorithm for searching within strings","An algorithm for searching within graphs","An algorithm for sorting arrays","An algorithm for searching within trees"],
+        "answer": "An algorithm for searching within graphs"
+    },
+    {
+        "question": "What is the time complexity of the Bellman-Ford algorithm?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(V * E)"],
+        "answer": "O(V * E)"
+    },
+    {
+        "question": "What is the Knuth-Morris-Pratt algorithm?",
+        "information": "The Knuth-Morris-Pratt algorithm is a string searching algorithm known for its efficiency in finding occurrences of a substring within a larger string.",
+        "options": ["An algorithm for searching within strings","An algorithm for sorting arrays","An algorithm for searching within graphs","An algorithm for searching within trees"],
+        "answer": "An algorithm for searching within strings"
+    },
+    {
+        "question": "What is the time complexity of the Knuth-Morris-Pratt algorithm?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(n + m)"],
+        "answer": "O(n + m)"
+    },
+    {
+        "question": "What is the Rabin-Karp algorithm?",
+        "information": "The Rabin-Karp algorithm is a string searching algorithm that uses hashing to find any one of a set of pattern strings in a text.",
+        "options": ["An algorithm for searching within strings","An algorithm for sorting arrays","An algorithm for searching within graphs","An algorithm for searching within trees"],
+        "answer": "An algorithm for searching within strings"
+    },
+    {
+        "question": "What is the time complexity of the Rabin-Karp algorithm?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(n + m)"],
+        "answer": "O(nm)"
+    },
+    {
+        "question": "What is the A* search algorithm?",
+        "information": "A* is an informed search algorithm that searches for the shortest path between a given start node and a target node.",
+        "options": ["An algorithm for searching within strings","An algorithm for searching within graphs","An algorithm for sorting arrays","An algorithm for searching within trees"],
+        "answer": "An algorithm for searching within graphs"
+    },
+    {
+        "question": "What is the time complexity of the A* search algorithm?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(E + V log V)"],
+        "answer": "O(E + V log V)"
+    },
+    {
+        "question": "What is the Dijkstra's algorithm?",
+        "information": "Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks.",
+        "options": ["An algorithm for searching within strings","An algorithm for searching within graphs","An algorithm for sorting arrays","An algorithm for searching within trees"],
+        "answer": "An algorithm for searching within graphs"
+    },
+    {
+        "question": "What is the time complexity of Dijkstra's algorithm?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(E + V log V)"],
+        "answer": "O(E + V log V)"
+    },
+    {
+        "question": "What is the Bellman-Ford algorithm?",
+        "information": "The Bellman-Ford algorithm is an algorithm that computes shortest paths from a single source vertex to all other vertices in a weighted graph.",
+        "options": ["An algorithm for searching within strings","An algorithm for searching within graphs","An algorithm for sorting arrays","An algorithm for searching within trees"],
+        "answer": "An algorithm for searching within graphs"
+    },
+    {
+        "question": "What is the time complexity of the Bellman-Ford algorithm?",
+        "information": "Understanding the time complexity of searching algorithms helps in evaluating their efficiency.",
+        "options": ["O(1)","O(log n)","O(n)","O(V * E)"],
+        "answer": "O(V * E)"
+    }
+]

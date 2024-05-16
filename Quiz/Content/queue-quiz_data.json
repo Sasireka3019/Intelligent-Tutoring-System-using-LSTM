@@ -1,0 +1,182 @@
+[
+    {
+        "question": "What is a queue?",
+        "information": "A queue is a linear data structure that follows the First In, First Out (FIFO) principle.",
+        "options": ["A linear data structure","A hierarchical data structure","A non-linear data structure","A dynamic data structure"],
+        "answer": "A linear data structure"
+    },
+    {
+        "question": "Which operation adds an element to the end of a queue?",
+        "information": "Understanding queue operations is essential for its functionality.",
+        "options": ["Enqueue","Dequeue","Peek","Pop"],
+        "answer": "Enqueue"
+    },
+    {
+        "question": "Which operation removes an element from the front of a queue?",
+        "information": "Different operations manipulate a queue's contents.",
+        "options": ["Enqueue","Dequeue","Peek","Pop"],
+        "answer": "Dequeue"
+    },
+    {
+        "question": "What is the time complexity of enqueue operation in a queue?",
+        "information": "Time complexity analysis helps in understanding the efficiency of operations.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "What is the time complexity of dequeue operation in a queue?",
+        "information": "Time complexity analysis helps in understanding the efficiency of operations.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "Which data structure can be used to implement a queue?",
+        "information": "There are various ways to implement a queue.",
+        "options": ["Array","Linked List","Stack","Tree"],
+        "answer": "Array"
+    },
+    {
+        "question": "What happens when you try to dequeue an empty queue?",
+        "information": "Handling edge cases is important in programming.",
+        "options": ["An error occurs","The queue is unaffected","Returns null","Returns -1"],
+        "answer": "An error occurs"
+    },
+    {
+        "question": "What is the space complexity of a queue with 'n' elements?",
+        "information": "Space complexity refers to the amount of memory used by an algorithm.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "Which operation retrieves the element at the front of a queue without removing it?",
+        "information": "Sometimes, you need to peek at the front element without dequeuing it.",
+        "options": ["Enqueue","Dequeue","Peek","Pop"],
+        "answer": "Peek"
+    },
+    {
+        "question": "What is the index of the front element in a queue?",
+        "information": "Understanding the indexing or referencing convention of queues is essential.",
+        "options": ["0","1","-1","Undefined"],
+        "answer": "Undefined"
+    },
+    {
+        "question": "What is the purpose of a circular queue?",
+        "information": "Circular queues address certain limitations of regular linear queues.",
+        "options": ["To improve memory utilization","To speed up enqueue operation","To reduce time complexity","To handle edge cases"],
+        "answer": "To improve memory utilization"
+    },
+    {
+        "question": "How do you detect if a circular queue is full?",
+        "information": "Detecting whether a circular queue is full is crucial before enqueuing new elements.",
+        "options": ["Rear pointer equals front pointer","Rear pointer equals size of the queue","Rear pointer equals front pointer - 1","Front pointer equals -1"],
+        "answer": "Rear pointer equals front pointer - 1"
+    },
+    {
+        "question": "How do you detect if a circular queue is empty?",
+        "information": "Detecting whether a circular queue is empty is crucial before dequeuing elements.",
+        "options": ["Rear pointer equals front pointer","Rear pointer equals size of the queue","Rear pointer equals front pointer - 1","Front pointer equals -1"],
+        "answer": "Rear pointer equals front pointer"
+    },
+    {
+        "question": "What is a priority queue?",
+        "information": "Priority queues are a variation of regular queues with additional features.",
+        "options": ["A queue where elements are dequeued based on priority","A queue with fixed size","A queue where elements are dequeued randomly","A queue with dynamic size"],
+        "answer": "A queue where elements are dequeued based on priority"
+    },
+    {
+        "question": "What is the time complexity of enqueue operation in a priority queue?",
+        "information": "Understanding the efficiency of operations in priority queues is important.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What is the time complexity of dequeue operation in a priority queue?",
+        "information": "Understanding the efficiency of operations in priority queues is important.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What is the space complexity of a priority queue?",
+        "information": "Space complexity analysis helps in understanding the memory usage of data structures.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the difference between a stack and a queue?",
+        "information": "Understanding the differences between different data structures helps in choosing the right one for the task.",
+        "options": ["Stack follows FIFO, Queue follows LIFO","Stack follows LIFO, Queue follows FIFO","Stack is dynamic, Queue is static","Stack is linear, Queue is hierarchical"],
+        "answer": "Stack follows LIFO, Queue follows FIFO"
+    },
+    {
+        "question": "Which operation is responsible for resizing the underlying array in a dynamic queue implementation?",
+        "information": "Dynamic resizing helps in handling varying amounts of data efficiently.",
+        "options": ["Enqueue","Dequeue","Resize","Peek"],
+        "answer": "Resize"
+    },
+    {
+        "question": "What is the index of the rear element in a queue?",
+        "information": "Understanding the indexing or referencing convention of queues is essential.",
+        "options": ["0","1","-1","Undefined"],
+        "answer": "Undefined"
+    },
+    {
+        "question": "Explain the concept of 'blocking' in queue implementations.",
+        "information": "Blocking occurs when certain operations on a queue are held until a certain condition is met.",
+        "options": ["When enqueue operation is paused until space becomes available in the queue","When dequeue operation is paused until an element is available in the queue","When peek operation is paused until the front element is accessible","When resize operation is paused until the array is full"],
+        "answer": "When dequeue operation is paused until an element is available in the queue"
+    },
+    {
+        "question": "What is a double-ended queue (deque)?",
+        "information": "Double-ended queues are versatile data structures with operations at both ends.",
+        "options": ["A queue with two front pointers","A queue with two rear pointers","A queue with operations at both ends","A queue with fixed size"],
+        "answer": "A queue with operations at both ends"
+    },
+    {
+        "question": "What is the time complexity of accessing an arbitrary element in a priority queue?",
+        "information": "Understanding the efficiency of operations in priority queues is important.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    },
+    {
+        "question": "What is the time complexity of accessing the maximum element in a max-priority queue?",
+        "information": "Understanding the efficiency of operations in priority queues is important.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "What is the time complexity of accessing the minimum element in a min-priority queue?",
+        "information": "Understanding the efficiency of operations in priority queues is important.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(1)"
+    },
+    {
+        "question": "Explain the concept of 'front' and 'rear' in a circular queue.",
+        "information": "Understanding the operational semantics of a circular queue is crucial.",
+        "options": ["Front is where enqueue occurs, Rear is where dequeue occurs","Front is where dequeue occurs, Rear is where enqueue occurs","Front is the index 0, Rear is the last index","Front is always equal to Rear"],
+        "answer": "Front is where dequeue occurs, Rear is where enqueue occurs"
+    },
+    {
+        "question": "What is the purpose of using a priority queue over a regular queue?",
+        "information": "Priority queues have specific applications where element prioritization is crucial.",
+        "options": ["To improve memory utilization","To speed up enqueue operation","To handle edge cases","To handle elements based on priority"],
+        "answer": "To handle elements based on priority"
+    },
+    {
+        "question": "How does a priority queue differ from a binary heap?",
+        "information": "Binary heap is often used to implement priority queues.",
+        "options": ["Priority queue follows FIFO, Binary heap follows LIFO","Priority queue is dynamic, Binary heap is static","Priority queue has operations at both ends, Binary heap has only one end","Priority queue maintains order, Binary heap maintains heap property"],
+        "answer": "Priority queue maintains order, Binary heap maintains heap property"
+    },
+    {
+        "question": "What are the advantages of using a linked list over an array for implementing a queue?",
+        "information": "Different implementations offer different trade-offs in terms of efficiency and flexibility.",
+        "options": ["Constant-time access to elements","Dynamic resizing","Better cache locality","Dynamic memory allocation"],
+        "answer": "Dynamic resizing"
+    },
+    {
+        "question": "What is the time complexity of resizing the underlying array in a dynamic queue implementation?",
+        "information": "Dynamic resizing helps in handling varying amounts of data efficiently.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n)"
+    }
+]

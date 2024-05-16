@@ -1,0 +1,104 @@
+[
+    {
+        "question": "What is recursion?",
+        "information": "Recursion is a programming technique where a function calls itself directly or indirectly to solve a problem.",
+        "options": ["A technique to avoid loops","A technique to solve problems using iteration","A technique to solve problems using multiple functions","A technique where a function calls itself"],
+        "answer": "A technique where a function calls itself"
+    },
+    {
+        "question": "What is a base case in recursion?",
+        "information": "A base case is a condition in a recursive function that stops the recursion by returning a value without further recursive calls.",
+        "options": ["The first step of recursion","A condition that continues recursion indefinitely","A condition that stops recursion","A condition that checks the input size"],
+        "answer": "A condition that stops recursion"
+    },
+    {
+        "question": "What is a recursive call?",
+        "information": "A recursive call is when a function calls itself to solve a smaller instance of the same problem.",
+        "options": ["A call to a non-recursive function","A call to a function with a loop","A call to a function that solves a different problem","A call to the same function"],
+        "answer": "A call to the same function"
+    },
+    {
+        "question": "What is the factorial function?",
+        "information": "The factorial function is a common example of recursion where the factorial of a non-negative integer 'n' is the product of all positive integers less than or equal to 'n'.",
+        "options": ["A function that calculates the product of all integers from 1 to n","A function that calculates the sum of all integers from 1 to n","A function that calculates the power of a number","A function that calculates the square root of a number"],
+        "answer": "A function that calculates the product of all integers from 1 to n"
+    },
+    {
+        "question": "What is tail recursion?",
+        "information": "Tail recursion occurs when the recursive call is the last operation performed by the function.",
+        "options": ["A recursive call that occurs in the middle of the function","A recursive call that occurs before any other operations","A recursive call that occurs after other operations","A recursive call that does not involve the function itself"],
+        "answer": "A recursive call that occurs as the last operation of the function"
+    },
+    {
+        "question": "What is the Fibonacci sequence?",
+        "information": "The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1.",
+        "options": ["0, 1, 1, 2, 3, 5, 8, ...","1, 2, 3, 5, 7, 11, 13, ...","2, 4, 8, 16, 32, 64, ...","1, 3, 6, 10, 15, 21, ..."],
+        "answer": "0, 1, 1, 2, 3, 5, 8, ..."
+    },
+    {
+        "question": "What is the recursive definition of the Fibonacci sequence?",
+        "information": "The Fibonacci sequence can be defined recursively as F(n) = F(n-1) + F(n-2) with base cases F(0) = 0 and F(1) = 1.",
+        "options": ["F(n) = n + F(n-1)","F(n) = n * F(n-1)","F(n) = F(n-1) - F(n-2)","F(n) = F(n-1) + F(n-2)"],
+        "answer": "F(n) = F(n-1) + F(n-2)"
+    },
+    {
+        "question": "What is a recursive algorithm?",
+        "information": "A recursive algorithm is an algorithm that solves a problem by calling itself recursively to solve smaller instances of the same problem.",
+        "options": ["An algorithm that solves a problem iteratively","An algorithm that solves a problem using a single function","An algorithm that solves a problem using only loops","An algorithm that solves a problem by calling itself"],
+        "answer": "An algorithm that solves a problem by calling itself recursively"
+    },
+    {
+        "question": "What is the base case of the factorial function?",
+        "information": "The base case of the factorial function is when the input is 0, where the factorial of 0 is defined to be 1.",
+        "options": ["n = 0","n = 1","n = -1","n = 2"],
+        "answer": "n = 0"
+    },
+    {
+        "question": "What is the recursive approach to solving the Towers of Hanoi problem?",
+        "information": "The Towers of Hanoi problem is a classic problem that can be solved recursively by moving disks from one peg to another while obeying certain rules.",
+        "options": ["Moving the smallest disk to the destination peg","Moving all but the largest disk to an auxiliary peg, moving the largest disk to the destination peg, and then moving the remaining disks to the destination peg","Moving the largest disk to the destination peg","Moving all disks to an auxiliary peg"],
+        "answer": "Moving all but the largest disk to an auxiliary peg, moving the largest disk to the destination peg, and then moving the remaining disks to the destination peg"
+    },
+    {
+        "question": "What is the time complexity of recursive algorithms?",
+        "information": "The time complexity of recursive algorithms depends on the number of recursive calls and the work done in each call.",
+        "options": ["O(1)","O(log n)","O(n)","O(2^n)"],
+        "answer": "Depends on the specific algorithm"
+    },
+    {
+        "question": "What is the depth of recursion?",
+        "information": "The depth of recursion is the number of recursive calls that are nested within each other during the execution of a recursive function.",
+        "options": ["The number of recursive calls","The number of base cases","The number of iterations in a loop","The number of elements in an array"],
+        "answer": "The number of recursive calls"
+    },
+    {
+        "question": "What is a recursive data structure?",
+        "information": "A recursive data structure is a data structure that is defined in terms of itself.",
+        "options": ["A data structure that calls itself","A data structure that uses recursion to define its operations","A data structure that contains recursive functions","A data structure that contains itself as a component"],
+        "answer": "A data structure that contains itself as a component"
+    },
+    {
+        "question": "What is tail recursion optimization?",
+        "information": "Tail recursion optimization is a technique used by compilers to optimize tail recursive functions to avoid stack overflow.",
+        "options": ["A technique to convert recursive calls into iterative calls","A technique to convert iterative calls into recursive calls","A technique to optimize memory usage in recursive functions","A technique to optimize performance in recursive functions"],
+        "answer": "A technique to convert recursive calls into iterative calls"
+    },
+    {
+        "question": "What is memoization?",
+        "information": "Memoization is a technique used to speed up recursive algorithms by storing the results of expensive function calls and returning the cached result when the same inputs occur again.",
+        "options": ["A technique to optimize memory usage in recursive functions","A technique to store and reuse previously computed results","A technique to convert recursive calls into iterative calls","A technique to convert iterative calls into recursive calls"],
+        "answer": "A technique to store and reuse previously computed results"
+    },
+    {
+        "question": "What is the Tower of Hanoi problem?",
+        "information": "The Tower of Hanoi problem is a classic problem where a set of disks of different sizes must be moved from one peg to another, with the restriction that a larger disk cannot be placed on top of a smaller one.",
+        "options": ["A problem that involves moving disks between pegs","A problem that involves sorting a set of disks","A problem that involves stacking disks","A problem that involves counting the number of disks"],
+        "answer": "A problem that involves moving disks between pegs"
+    },
+    {
+        "question": "What is the depth of recursion in the Tower of Hanoi problem with 'n' disks?",
+        "information": "The depth of recursion is the number of recursive calls made during the solution of the Tower of Hanoi problem.",
+        "options": ["n","n-1","2n","2^n"],
+        "answer": "2^n - 1"
+    }
+]

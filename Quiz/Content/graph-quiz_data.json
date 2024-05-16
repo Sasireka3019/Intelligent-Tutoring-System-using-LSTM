@@ -1,0 +1,182 @@
+[
+    {
+        "question": "What is a graph in data structures?",
+        "information": "A graph is a collection of nodes (vertices) and edges that connect pairs of nodes.",
+        "options": ["A linear data structure","A hierarchical data structure","A non-linear data structure","A dynamic data structure"],
+        "answer": "A non-linear data structure"
+    },
+    {
+        "question": "What is a vertex in a graph?",
+        "information": "Vertices are the fundamental elements of a graph.",
+        "options": ["A leaf","A connection between two edges","An element in the graph","A root"],
+        "answer": "An element in the graph"
+    },
+    {
+        "question": "What is an edge in a graph?",
+        "information": "Edges represent relationships between vertices in a graph.",
+        "options": ["A leaf","A connection between two vertices","An element in the graph","A root"],
+        "answer": "A connection between two vertices"
+    },
+    {
+        "question": "What is a directed graph?",
+        "information": "In directed graphs, edges have a direction from one vertex to another.",
+        "options": ["A graph with undirected edges","A graph with directed edges","A graph with weighted edges","A graph with unweighted edges"],
+        "answer": "A graph with directed edges"
+    },
+    {
+        "question": "What is an undirected graph?",
+        "information": "In undirected graphs, edges have no direction between vertices.",
+        "options": ["A graph with directed edges","A graph with undirected edges","A graph with weighted edges","A graph with unweighted edges"],
+        "answer": "A graph with undirected edges"
+    },
+    {
+        "question": "What is a weighted graph?",
+        "information": "Weighted graphs have values associated with their edges, indicating the cost or distance between vertices.",
+        "options": ["A graph with directed edges","A graph with undirected edges","A graph with weighted edges","A graph with unweighted edges"],
+        "answer": "A graph with weighted edges"
+    },
+    {
+        "question": "What is a cycle in a graph?",
+        "information": "Cycles occur when a sequence of edges exists that forms a closed loop.",
+        "options": ["A connected component","A subgraph","A loop that traverses the same edge multiple times","A path between two vertices"],
+        "answer": "A loop that traverses the same edge multiple times"
+    },
+    {
+        "question": "What is a path in a graph?",
+        "information": "Paths are sequences of vertices connected by edges in a graph.",
+        "options": ["A loop that traverses the same edge multiple times","A subgraph","A connected component","A sequence of vertices connected by edges"],
+        "answer": "A sequence of vertices connected by edges"
+    },
+    {
+        "question": "What is the degree of a vertex in a graph?",
+        "information": "The degree of a vertex is the number of edges incident to it.",
+        "options": ["The number of vertices in the graph","The number of edges in the graph","The number of neighbors of the vertex","The weight of the vertex"],
+        "answer": "The number of neighbors of the vertex"
+    },
+    {
+        "question": "What is the maximum number of edges in an undirected graph with 'n' vertices?",
+        "information": "Understanding the relationship between vertices and edges is important in graph theory.",
+        "options": ["n","n^2","2n","n(n-1)/2"],
+        "answer": "n(n-1)/2"
+    },
+    {
+        "question": "What is a connected graph?",
+        "information": "Connected graphs have a path between every pair of vertices.",
+        "options": ["A graph with no cycles","A graph with cycles","A graph with a path between every pair of vertices","A graph with no edges"],
+        "answer": "A graph with a path between every pair of vertices"
+    },
+    {
+        "question": "What is a complete graph?",
+        "information": "Complete graphs have an edge between every pair of distinct vertices.",
+        "options": ["A graph with no cycles","A graph with cycles","A graph with a path between every pair of vertices","A graph with an edge between every pair of distinct vertices"],
+        "answer": "A graph with an edge between every pair of distinct vertices"
+    },
+    {
+        "question": "What is a bipartite graph?",
+        "information": "Bipartite graphs can be partitioned into two sets such that no two vertices within the same set are adjacent.",
+        "options": ["A graph with no cycles","A graph with cycles","A graph that can be partitioned into two sets with no adjacent vertices within the same set","A graph with a path between every pair of vertices"],
+        "answer": "A graph that can be partitioned into two sets with no adjacent vertices within the same set"
+    },
+    {
+        "question": "What is a spanning tree?",
+        "information": "Spanning trees are subgraphs of a graph that contain all the vertices and are acyclic.",
+        "options": ["A tree that includes all the vertices of the graph","A tree with maximum height","A tree with minimum height","A tree with no leaf nodes"],
+        "answer": "A tree that includes all the vertices of the graph"
+    },
+    {
+        "question": "What is a minimum spanning tree?",
+        "information": "Minimum spanning trees are spanning trees with the minimum possible sum of edge weights.",
+        "options": ["A spanning tree with maximum edge weights","A spanning tree with minimum edge weights","A tree with maximum height","A tree with minimum height"],
+        "answer": "A spanning tree with minimum edge weights"
+    },
+    {
+        "question": "What is Dijkstra's algorithm used for?",
+        "information": "Dijkstra's algorithm finds the shortest paths from a source vertex to all other vertices in a weighted graph.",
+        "options": ["Finding the longest path in a graph","Finding the minimum spanning tree","Finding the shortest paths in a weighted graph","Finding the maximum flow in a network"],
+        "answer": "Finding the shortest paths in a weighted graph"
+    },
+    {
+        "question": "What is the time complexity of Dijkstra's algorithm?",
+        "information": "Understanding the efficiency of graph algorithms is important in various applications.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n^2)"
+    },
+    {
+        "question": "What is Kruskal's algorithm used for?",
+        "information": "Kruskal's algorithm finds a minimum spanning tree for a connected, weighted graph.",
+        "options": ["Finding the longest path in a graph","Finding the minimum spanning tree","Finding the shortest paths in a weighted graph","Finding the maximum flow in a network"],
+        "answer": "Finding the minimum spanning tree"
+    },
+    {
+        "question": "What is the time complexity of Kruskal's algorithm?",
+        "information": "Understanding the efficiency of graph algorithms is important in various applications.",
+        "options": ["O(1)","O(log n)","O(n)","O(n log n)"],
+        "answer": "O(n log n)"
+    },
+    {
+        "question": "What is Prim's algorithm used for?",
+        "information": "Prim's algorithm finds a minimum spanning tree for a connected, weighted graph.",
+        "options": ["Finding the longest path in a graph","Finding the minimum spanning tree","Finding the shortest paths in a weighted graph","Finding the maximum flow in a network"],
+        "answer": "Finding the minimum spanning tree"
+    }, 
+    {
+        "question": "What is the Bellman-Ford algorithm used for?",
+        "information": "The Bellman-Ford algorithm finds the shortest paths from a single source vertex to all other vertices in a weighted graph, even with negative edge weights.",
+        "options": ["Finding the longest path in a graph","Finding the minimum spanning tree","Finding the shortest paths in a weighted graph","Finding the maximum flow in a network"],
+        "answer": "Finding the shortest paths in a weighted graph"
+    },
+    {
+        "question": "What is the time complexity of the Bellman-Ford algorithm?",
+        "information": "Understanding the efficiency of graph algorithms is important in various applications.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^2)"],
+        "answer": "O(n^2)"
+    },
+    {
+        "question": "What is Floyd-Warshall algorithm used for?",
+        "information": "The Floyd-Warshall algorithm finds the shortest paths between all pairs of vertices in a weighted graph.",
+        "options": ["Finding the longest path in a graph","Finding the minimum spanning tree","Finding the shortest paths in a weighted graph","Finding the maximum flow in a network"],
+        "answer": "Finding the shortest paths in a weighted graph"
+    },
+    {
+        "question": "What is the time complexity of the Floyd-Warshall algorithm?",
+        "information": "Understanding the efficiency of graph algorithms is important in various applications.",
+        "options": ["O(1)","O(log n)","O(n)","O(n^3)"],
+        "answer": "O(n^3)"
+    },
+    {
+        "question": "What is the Ford-Fulkerson algorithm used for?",
+        "information": "The Ford-Fulkerson algorithm finds the maximum flow in a flow network.",
+        "options": ["Finding the longest path in a graph","Finding the minimum spanning tree","Finding the shortest paths in a weighted graph","Finding the maximum flow in a network"],
+        "answer": "Finding the maximum flow in a network"
+    },
+    {
+        "question": "What is the time complexity of the Ford-Fulkerson algorithm?",
+        "information": "Understanding the efficiency of graph algorithms is important in various applications.",
+        "options": ["O(1)","O(log n)","O(n)","O(E * f)"],
+        "answer": "O(E * f)"
+    },
+    {
+        "question": "What is the difference between DFS and BFS?",
+        "information": "Depth-first search (DFS) and breadth-first search (BFS) are two fundamental graph traversal algorithms.",
+        "options": ["DFS explores paths level by level, BFS explores paths depth by depth","DFS explores paths depth by depth, BFS explores paths level by level","DFS is used for finding shortest paths, BFS is used for finding longest paths","DFS is iterative, BFS is recursive"],
+        "answer": "DFS explores paths depth by depth, BFS explores paths level by level"
+    },
+    {
+        "question": "What is a topological sort?",
+        "information": "Topological sorting orders the vertices of a directed acyclic graph (DAG) such that for every directed edge 'uv' from vertex 'u' to vertex 'v', 'u' comes before 'v' in the ordering.",
+        "options": ["A sort algorithm based on quicksort","A sort algorithm based on mergesort","A sort algorithm for directed acyclic graphs","A sort algorithm for complete graphs"],
+        "answer": "A sort algorithm for directed acyclic graphs"
+    },
+    {
+        "question": "What is the time complexity of topological sort?",
+        "information": "Understanding the efficiency of graph algorithms is important in various applications.",
+        "options": ["O(1)","O(log n)","O(n)","O(V + E)"],
+        "answer": "O(V + E)"
+    },
+    {
+        "question": "What is a strongly connected component in a graph?",
+        "information": "Strongly connected components are subsets of vertices where every vertex is reachable from every other vertex within the subset.",
+        "options": ["A set of vertices with no edges between them","A set of vertices with all possible edges between them","A set of vertices where every vertex is reachable from every other vertex","A set of vertices with no cycles"],
+        "answer": "A set of vertices where every vertex is reachable from every other vertex"
+    }
+]
